@@ -128,7 +128,8 @@
 
 <hr>
 
-<fieldset style="width:400px; "  class="body">
+<div class="d3">
+<fieldset style="width:400px; height: 400px; "  class="body">
 <label for="body" style="font-size:30px; color:#65426c;"> choose your body shape:</label>
 </br>
 <label class="container"> Triangle/Pear
@@ -159,7 +160,49 @@
 <a href="body.php"> to know more about body shapes.</a>
 </fieldset>
 
+<hr>
 
+<fieldset style="width:400px; "  class="hair">
+<label for="hair" style="font-size:30px; color:#65426c;"> choose your hair color:</label>
+</br>
+<label class="container"> Black
+  <input type="checkbox" >
+  <div class="checkmark"></div>
+</label>
+</br> 
+<label class="container"> Brown (light, medium, and dark)
+  <input type="checkbox" >
+  <div class="checkmark"></div>
+</label>
+</br>
+<label class="container"> Blonde (platinum, golden, ash, and strawberry)
+  <input type="checkbox" >
+  <div class="checkmark"></div>
+</label>
+</br>
+<label class="container">Red (auburn, copper, and ginger)
+  <input type="checkbox" >
+  <div class="checkmark"></div>
+</label>
+</br>
+<label class="container">Gray or silver
+  <input type="checkbox" >
+  <div class="checkmark"></div>
+</label>
+</br>
+<label class="container">White
+  <input type="checkbox" >
+  <div class="checkmark"></div>
+</label>
+</br>
+<label class="container">Blue, pink, purple, or other vivid colors (often achieved through hair dye)
+  <input type="checkbox" >
+  <div class="checkmark"></div>
+</label>
+</br>
+</fieldset>
+
+</div>
 
 
 

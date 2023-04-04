@@ -105,9 +105,17 @@ display: flex;
    display: flex;
    
      }
+     .d3{
+      display: flex;
+      
+        }
      .body{
       background-image: url("body.jpg");
       background-size: 700px ;
      
    }
-   
+   .hair{
+      background-image: url("hair.jpg");
+      background-size: 500px ;
+     
+   }
