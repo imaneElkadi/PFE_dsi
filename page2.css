@@ -80,25 +80,26 @@
     
          background-image: url("skincolor.jpg");
          background-size: 450px ; /* or contain, depending on your preference */
-       
+         margin-right:100px ;
+         margin-top: 60px;
    }
    .age{
       
       background-image: url("age.jpg");
       background-size: 300px ;
-      margin-left:120px ;
-      margin-right: 600px;
+      margin-left:100px ;
+    
    
    }
    .height{
       background-image: url("height.jpg");
       background-size: 500px ;
-    
+      margin-right:100px ;
    }
    .weight{
       background-image: url("weight.jpg");
       background-size: 700px ;
-     
+      margin-left:100px ;
    }
   .d1{
 display: flex;
@@ -115,10 +116,10 @@ display: flex;
      .body{
       background-image: url("body.jpg");
       background-size: 700px ;
-     
+      margin-left:100px ;
    }
    .hair{
-      background-image: url("haire.jpg");
-      background-size: 500px ;
-     
+      background-image: url("hairee.jpeg");
+      background-size: 540px ;
+      margin-right:100px ;
    }

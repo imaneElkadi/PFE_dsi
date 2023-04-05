@@ -6,8 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The ONTHA</title>
-    <link rel="stylesheet" href="front2.css">
+    <link rel="stylesheet" href="page2.css">
 <h1>Welcome .......</h1>
+<script src="test.js">
+</script>
 </head>
 <body>
 
@@ -17,17 +19,17 @@
 <label for="age" style="font-size:30px; color:#65426c;"> choose your age:</label>
 </br>
 <label class="container"> 18---30 years old
-  <input type="checkbox" >
+  <input type="checkbox" name="a" id="1" >
   <div class="checkmark"></div>
 </label>
 </br> 
 <label class="container"> 31---45 years old
-  <input type="checkbox">
+  <input type="checkbox" name="a" id="2" >
   <div class="checkmark"></div>
 </label>
 </br>
 <label class="container"> 46---60 years old
-  <input type="checkbox" >
+  <input type="checkbox" name="a" id="3" >
   <div class="checkmark"></div>
 </label>
 </br>
@@ -162,7 +164,7 @@
 
 <hr>
 
-<fieldset style="width:400px; "  class="hair">
+<fieldset style="width:400px; "  class="hair" >
 <label for="hair" style="font-size:30px; color:#65426c;"> choose your hair color:</label>
 </br>
 <label class="container"> Black
@@ -205,6 +207,7 @@
 </div>
 
 
+<hr>
 
 
 
@@ -233,8 +236,7 @@
 
 
 
-
-
+<input type="submit" value="ok" onsubmit="return validateForm()">
 
 </form>
 
