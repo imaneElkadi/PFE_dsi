@@ -7,6 +7,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The ONTHA</title>
     <link rel="stylesheet" href="page2.css">
+
+<nav>
+  <ul>
+    <li><a href="index.php">Home</a></li>
+    <!-- <li><a href="#">About</a></li>
+    <li><a href="#">Contact</a></li> -->
+    <li class="profile"><a href="profil.php">My Profile</a></li>
+  </ul>
+</nav>
 <h1>Welcome .......</h1>
 <script src="test.js">
 </script>
@@ -159,7 +168,7 @@
   <div class="checkmark"></div>
 </label>
 </br>
-<a href="body.php"> to know more about body shapes.</a>
+<a href="image.php" style="color:black;"> learn more about body shapes.</a>
 </fieldset>
 
 <hr>
@@ -231,17 +240,20 @@
 
 
 
-
-
-
-
-
-<input type="submit" value="ok" onsubmit="return validateForm()">
+</br>
+<div class="btn1">
+<button data-label="Register" type="submit"  onsubmit="return validateForm()" class="rainbow-hover">
+  <span class="sp">Register</span>
+</button>
+</div>
 
 </form>
 
+</br>
 
-
+<footer>
+      <p>&copy; the ONTHA</p>
+    </footer>
 
 </body>
 </html>
