@@ -2,6 +2,7 @@
 
 *{
    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
 }
 /* Hide the default checkbox */
 
@@ -85,6 +86,8 @@
       
       background-image: url("age.jpg");
       background-size: 300px ;
+      margin-left:120px ;
+      margin-right: 600px;
    
    }
    .height{
@@ -115,7 +118,7 @@ display: flex;
      
    }
    .hair{
-      background-image: url("hair.jpg");
+      background-image: url("haire.jpg");
       background-size: 500px ;
      
    }
