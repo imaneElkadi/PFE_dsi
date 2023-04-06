@@ -1,0 +1,134 @@
+body{
+    background: #d5eff7;
+}
+h1{
+    font-size: 40px;
+    font-family: Georgia;
+    margin-top: 4%;
+    margin-bottom: 10px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+p{
+    font-size: 20px;
+    font-family: Georgia;
+    margin-top: 4%;
+}
+fieldset{
+    background-image:url(pics/bgg.jpg) ;
+    height: 150px;
+
+}
+img{
+    height: 400px;
+    width: 600px;
+    margin-top: 20px;
+    margin-left: 35%;
+}
+.r{
+  background-color: #c2dde4;  
+}
+.rr{
+    background-color: #c2dde4;  
+  }
+.r img{
+    height: 400px;
+    width: 500px;
+    margin-top: 20px;
+    margin-bottom: 10%;
+    margin-left: 9%;
+   
+}
+.rr img{
+    height: 400px;
+    width: 500px;
+    margin-top: 20px;
+    margin-left: 9%;
+    margin-bottom: 10%;
+
+}
+.rrr video{
+    height: 700px;
+    width: 1000px;
+    margin-bottom:10px;
+   margin-left:-230px;
+}
+
+.serv{
+    color: #040303;
+    background: #c3d2df;
+    font-size: 25px;
+    margin-right:250px ;
+    margin-left: 250px;
+}
+.serv h4{
+    font-size: 40px;
+    color: rgb(29, 42, 62);
+    margin-bottom:0.5cm;
+}
+.serv1 h4{
+    font-size: 40px;
+    color: rgb(29, 42, 62);
+    margin-bottom:0.5cm;
+}
+.serv1{
+    background: #c3d2df;
+    color: black;
+    font-size: 25px;
+    margin-right:100px;
+    margin-left:100px ;
+}
+video{
+    height: 400px;
+    width: 600px;
+    margin-bottom:10px;
+   margin-left: 350px;
+  }
+  .p img{
+height:200;
+width: 250;
+margin-left: 2%;
+  }
+ .y img{
+    height: 400px;
+    width: 310px;
+    margin-top: 20px;
+    margin-left: 1%;
+    border-radius: 10%;
+}
+h2{
+    font-size: 40px;
+    font-family: Georgia;
+    margin-top: 4%;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+h3{
+    font-size: 40px;
+    font-family: Georgia;
+    margin-top: 4%;
+    color: rgb(129, 70, 70);
+}
+img[name="m1"]{
+    height: 700px;
+    width: 600px;
+    margin-top: 10pxpx;
+    margin-left: 30%;
+    border-radius: 10%;
+}
+div{
+    width: 600px;
+    
+   margin-bottom: 2%;
+    margin-left: 30%;
+}
+.back-video {
+    position:fixed;
+  display:flex;
+  height: max-content;
+  width: 1500px;
+  bottom:0;
+ margin-bottom: 0%;
+ right: 0;
+
+}

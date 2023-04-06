@@ -1,0 +1,44 @@
+.rar img{
+    height: 200px;
+    margin-top:35px ;
+   margin-left: 5%;
+}
+.huda img{
+    height: 200px;
+    margin-top:35px ;
+   margin-left: 5%;
+}
+.kylie img{
+    height: 200px;
+    margin-top:35px ;
+   margin-left: 5%;
+}
+.old img{
+    height: 200px;
+    margin-top:35px ;
+   margin-left: 5%;
+}
+.new img{
+    height: 200px;   
+    margin-top:35px ;
+   margin-left: 5%;
+}
+.hi img{
+    height: 200px;
+    margin-top:35px ;
+   margin-left: 5%;
+}
+.h img{
+    height: 200px;    
+    margin-top:35px ;
+   margin-left: 5%;
+}
+a{
+    font-size: 70px;
+    text-decoration: none;
+    margin-left:30% ;
+   }
+a:hover{
+     color: #340a1a;
+    -ms-zoom-animation: default;
+    }

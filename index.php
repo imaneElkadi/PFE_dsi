@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -7,66 +8,80 @@
   <body>
     <header>
       <nav>
+        <img src="pics/logo.png">
+        <h1>the ontha</h1>
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="index.php">Home</a></li>
+          <li><a href="description.php">About</a></li>
+          <li><a href="well.php">Services</a></li>
+          <li><a href="#">Contact-us</a></li>
         </ul>
       </nav>
     </header>
-    <form>
-      <h2>Cute Form</h2>
-      <label for="name">Name:</label>
-      <input type="text" id="name" name="name" placeholder="Enter your name...">
-      <label for="email">Email:</label>
-      <input type="email" id="email" name="email" placeholder="Enter your email...">
-      <label for="message">Message:</label>
-      <textarea id="message" name="message" placeholder="Enter your message..."></textarea>
-      <button type="submit">Send</button>
+    <div class="txt">
+      <h1>BEAUTY <span> & ELEGANCE</span> </h1>
+       <h3> "The ontha" website is designed to cater to the diverse interests and<br>
+       needs of beauty enthusiasts across the globe. <br>
+         </h3><
+       <p> it's space for beauty lovers to discover and explore the latest  trends, <br>
+         products, and techniques in the beauty industry.<br>
+          <br>
+        it olso can offer advice and tips on beauty routines,skin concerns<br>
+        hair problems, and makeup application for different skin <br>
+           types and tones. <br>
+         </p>
+    <form name="f" method="POST" action="welcom.php" >
+      <h2>welcome sweetheart</h2>
+      <label for="iduti">idutilisateur:</label>
+      <input type="text" name="iduti" placeholder="Enter your id">
+      <label for="password">Password:</label>
+      <input type="password" name="pwd" placeholder="Enter your password">
+      <div class="bn">
+      <button type="submit">sign in</button>
+      <center><a href="signup.php">sign up</a> </center>
+      </div>
+      <a href="obl.php">mot de passe oublier </a>
+     
     </form>
+    </div>
     <main>
       <section id="hero">
         <h1>Welcome to Women's Beauty Website</h1>
-        <p>Discover the latest trends and tips for beauty and wellness</p>
-        <a href="#" class="btn">Learn More</a>
-      </section>
-      <section id="about">
-        <h2>About Us</h2>
-        <p>We are a team of beauty experts dedicated to helping women look and feel their best. Our services include makeup, hair, skincare, and more.</p>
+        <p>learn more about our Website perpse</p>
+        <a href="description.php" class="btn">Learn More</a>
       </section>
       <section id="services">
         <h2>Our Services</h2>
         <ul>
-          <li>Makeup</li>
-          <li>Hair</li>
-          <li>Skincare</li>
-          <li>Wellness</li>
+          <li> <a href="mo.php"> Makeup/outfits</a></li>
+          <li> <a href="h.php"> Hair</a></li>
+          <li> <a href="sk.php"> Skincare</a></li>
+          <li> <a href="wellness.php"> Wellness</a></li>
+  
         </ul>
       </section>
       <section id="blog">
-        <h2>Latest Blog Posts</h2>
         <ul>
           <li>
-            <a href="#">
-              <img src="jiss.jpg" alt="Blog Post 1">
+            <a href="skin.php">
+              <img src="pics/pic7.jpg" alt="Blog Post 1">
               <h3>5 Skincare Tips for Glowing Skin</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor ultrices ante eu bibendum.</p>
             </a>
           </li>
           <li>
-            <a href="#">
-              <img src="black-pink.jpg" alt="Blog Post 2">
-              <h3>10 Hairstyles to Try This Season</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor ultrices ante eu bibendum.</p>
-            </a>
+            <a href="hair.php">
+              <img src="pics/pic8.jpg" alt="Blog Post 2">
+              <h3>12 Hairstyles to Try This Season</h3>            </a>
           </li>
         </ul>
       </section>
     </main>
     <footer>
-      <p>&copy; the ONTHA</p>
+      <p>&copy; the ONTHA <br>
+      &copy; www.theOntha.com <br>
+      -email:swdsara5@gmail.com <br>
+      -adresse 
+                     </p>
     </footer>
   </body>
 </html>
