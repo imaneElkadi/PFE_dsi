@@ -1,0 +1,235 @@
+
+
+*{
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+}
+/* Hide the default checkbox */
+
+
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+    border-radius: 5px;
+   }
+   
+   .container {
+    display: block;
+    position: relative;
+    cursor: pointer;
+    font-size: 20px;
+    user-select: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 0px rgb(183, 183, 183);
+   }
+   
+   /* Create a custom checkbox */
+   .checkmark {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 1.3em;
+    width: 1.3em;
+    background-color: #ccc;
+    border-radius: 5px;
+   }
+   
+   /* When the checkbox is checked, add a blue background */
+   .container input:checked ~ .checkmark {
+    box-shadow: 3px 3px 0px rgb(183, 183, 183);
+    transition: all 0.2s;
+    opacity: 1;
+    background-image: linear-gradient(45deg, rgb(100, 61, 219) 0%, rgb(217, 21, 239) 100%);
+   }
+   
+   .container input ~ .checkmark {
+    transition: all 0.2s;
+    opacity: 1;
+    box-shadow: 1px 1px 0px rgb(183, 183, 183);
+   }
+   
+   /* Create the checkmark/indicator (hidden when not checked) */
+   .checkmark:after {
+    content: "";
+    position: absolute;
+    opacity: 0;
+    transition: all 0.2s;
+   }
+   
+   /* Show the checkmark when checked */
+   .container input:checked ~ .checkmark:after {
+    opacity: 1;
+    transition: all 0.2s;
+   }
+   
+   /* Style the checkmark/indicator */
+   .container .checkmark:after {
+    left: 0.45em;
+    top: 0.25em;
+    width: 0.25em;
+    height: 0.5em;
+    border: solid white;
+    border-width: 0 0.15em 0.15em 0;
+    transform: rotate(45deg);
+   }
+
+   .skin{
+    
+         background-image: url("skincolor.jpg");
+         background-size: 450px ; /* or contain, depending on your preference */
+         margin-right:100px ;
+         margin-top: 60px;
+   }
+   .age{
+      
+      background-image: url("age.jpg");
+      background-size: 300px ;
+      margin-left:100px ;
+    
+   
+   }
+   .height{
+      background-image: url("height.jpg");
+      background-size: 500px ;
+      margin-right:100px ;
+   }
+   .weight{
+      background-image: url("weight.jpg");
+      background-size: 700px ;
+      margin-left:100px ;
+   }
+  .d1{
+display: flex;
+
+  }
+  .d2{
+   display: flex;
+   
+     }
+     .d3{
+      display: flex;
+      
+        }
+     .body{
+      background-image: url("body.jpg");
+      background-size: 700px ;
+      margin-left:100px ;
+   }
+   .hair{
+      background-image: url("hairee.jpeg");
+      background-size: 540px ;
+      margin-right:100px ;
+   }
+
+
+   .rainbow-hover {
+      font-size: 16px;
+      font-weight: 700;
+      color: #ff7576;
+      background-color: #2B3044;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      padding: 12px 24px;
+      position: relative;
+      line-height: 24px;
+      border-radius: 9px;
+      box-shadow: 0px 1px 2px #2B3044,
+        0px 4px 16px #2B3044;
+      transform-style: preserve-3d;
+      transform: scale(var(--s, 1)) perspective(600px)
+        rotateX(var(--rx, 0deg)) rotateY(var(--ry, 0deg));
+      perspective: 600px;
+      transition: transform 0.1s;
+    }
+    
+    .sp {
+      background: linear-gradient(
+          90deg,
+          #866ee7,
+          #ea60da,
+          #ed8f57,
+          #fbd41d,
+          #2cca91
+        );
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      text-fill-color: transparent;
+      display: block;
+    }
+    
+    .rainbow-hover:active {
+      transition: 0.3s;
+      transform: scale(0.93);
+    }
+    .btn1{
+      margin-left: 550px;
+      margin-right: 120px;
+    }
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      
+      padding: 20px;
+margin-bottom: 0px;
+      }
+      /* here */
+
+
+      nav {
+         background-color: #f9b6c1;
+         margin: 0;
+         padding: 0;
+       }
+       
+       ul {
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+         list-style: none;
+         margin: 0;
+         padding: 0;
+       }
+       
+       li {
+         margin: 0;
+       }
+       
+       a {
+         color: #fff;
+         text-decoration: none;
+         font-size: 16px;
+         padding: 8px;
+         border-radius: 5px;
+         transition: all 0.2s ease-in-out;
+       }
+       
+       a:hover {
+         background-color: #fff;
+         color: #f9b6c1;
+       }
+       
+       .profile {
+         background-color: #f9e2b3;
+         border: none;
+         border-radius: 30px;
+         padding: 10px 20px;
+         font-weight: bold;
+         font-size: 16px;
+         box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+         transition: all 0.2s ease-in-out;
+       }
+       
+       .profile:hover {
+         background-color: #f9b6c1;
+         color: #fff;
+       }
+       body {
+         margin: 0;
+         padding: 0;
+       }  
