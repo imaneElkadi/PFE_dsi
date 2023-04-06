@@ -3,7 +3,7 @@
 <html>
   <head>
     <title>Women's Beauty Website</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="front.css">
   </head>
   <body>
     <header>
@@ -20,7 +20,7 @@
     </header>
     <div class="txt">
       <h1>BEAUTY <span> & ELEGANCE</span> </h1>
-       <h3> "The ontha" website is designed to cater to the diverse interests and<br>
+       <h3> "The ontha" website is designed to cater to the diverse interests <br>and
        needs of beauty enthusiasts across the globe. <br>
          </h3><
        <p> it's space for beauty lovers to discover and explore the latest  trends, <br>
@@ -30,7 +30,7 @@
         hair problems, and makeup application for different skin <br>
            types and tones. <br>
          </p>
-    <form name="f" method="POST" action="welcom.php" >
+    <form name="f" method="POST" action="welcom.php" style="width:450px; margin-left:820px;" >
       <h2>welcome sweetheart</h2>
       <label for="iduti">idutilisateur:</label>
       <input type="text" name="iduti" placeholder="Enter your id">
