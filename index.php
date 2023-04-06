@@ -37,7 +37,7 @@
       <label for="password">Password:</label>
       <input type="password" name="pwd" placeholder="Enter your password">
       <div class="bn">
-      <button type="submit">sign in</button>
+      <button type="submit">log in</button>
       <center><a href="signup.php">sign up</a> </center>
       </div>
       <a href="obl.php">mot de passe oublier </a>
