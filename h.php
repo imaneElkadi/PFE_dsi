@@ -9,16 +9,16 @@
 
 </head>
 <body>
-    <h1> long hair</h1>
+    <h1> long haircut</h1>
     <div class="h">
-    <img src="PICSMAKEUP/h1.jpg">
     <img src="PICSMAKEUP/h7.jpg">
     <img src="PICSMAKEUP/h2.jpg">
     <img src="PICSMAKEUP/h4.jpg">
     <img src="PICSMAKEUP/h9.jpg">
     <img src="PICSMAKEUP/h6.jpg">
     <img src="PICSMAKEUP/h3.jpg">
-    <h1> shert hair</h1>
+    <h1> short haircut</h1>
+    <img src="PICSMAKEUP/h1.jpg">
     <img src="PICSMAKEUP/h8.jpg">
     <img src="PICSMAKEUP/h5.jpg">
     <img src="PICSMAKEUP/h15.jpg">
@@ -26,9 +26,8 @@
     <img src="PICSMAKEUP/h12.jpg">
     <img src="PICSMAKEUP/h20.jpg">
     <img src="PICSMAKEUP/h21.jpg">
-    <h1>  cerly hair</h1>
+    <h1>  cerly haircut</h1>
     <img src="PICSMAKEUP/h13.jpg">
-    <img src="PICSMAKEUP/h14.jpg">
     <img src="PICSMAKEUP/h10.jpg">
     <img src="PICSMAKEUP/h16.jpg">
     <img src="PICSMAKEUP/h17.jpg">
@@ -36,7 +35,6 @@
     <img src="PICSMAKEUP/h19.jpg">
 
     </div>
-    <a href="index.php">go back to home</a>
 
 </body>
 </html>
