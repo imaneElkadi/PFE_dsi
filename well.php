@@ -7,10 +7,7 @@
 </head>
 <body>
     <h1>our services</h1>
-    <div class="p">
-    <img src="pics/s1.jpg" >
-    <img src="pics/s2.jpg" >
-    </div>
+   
         <div class="serv"><p>
     <h4>THE ONTHA </h4> " the ontha " is an online  website  that provides informations and resources <br>
      on all things related to beauty. <br>
@@ -18,9 +15,11 @@
     It is designed to cater to the needs and interests of beauty enthusiasts, ranging <br>
      from novices to professionals.</p> <br>
      </div>
-     <video autoplay loop muted plays and-inline >
-            <source src="pics/vid1.mp4" type="video/mp4">
-        </video>
+     <div class="p">
+    <img src="pics/s1.jpg" >
+    <img src="pics/s2.jpg" >
+    <img src="pics/port.png" >
+    </div>
 <div class="serv1"> <p>
 <h4> The website include features such as:</h4> <br>
 

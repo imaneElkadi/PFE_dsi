@@ -1,0 +1,39 @@
+slmgr /ipk 
+
+Win 10 Home: TX9XD-98N7V-6WMQ6-BX7FG-H8Q99
+Win 10 Home N: 3KHY7-WNT83-DGQKR-F7HPR-844BM
+Win 10 Home Single Language: 7HNRX-D7KGG-3K4RQ-4WPJ4-YTDFH
+Win 10 Home Country Specific: PVMJN-6DFY6-9CCP6-7BKTT-D3WVR
+Win 10 Professional: W269N-WFGWX-YVC9B-4J6C9-T83GX
+Win 10 Professional N: MH37W-N47XK-V7XM9-C7227-GCQG9
+Win 10 Education: NW6C2-QMPVW-D7KKK-3GKT6-VCFB2
+Win 10 Education N: 2WH4N-8QGBV-H22JP-CT43Q-MDWWJ
+Win 10 Enterprise: NPPR9-FWDCX-D2C8J-H872K-2YT43
+Win 10 Enterprise N: DPH2V-TTNVB-4X9Q3-TJR4H-KHJW4 
+
+تعمل هذه المفاتيح لكل من x86 (32 بت) و x64 (64 بت).
+Windows 10 Home + Office 2016 Professional Key
+MNXKQ-WY2CT-JWBJ2-T68TQ-YBH2V
+Windows 10 Enterprise
+NW6C2-QMPVW-D7KKK-3GKT6-VCFB2
+Windows 10 Pro + Office 2016 Professional Key
+MNXKQ-WY2CT-JWBJ2-T68TQ-YBH2V
+Windows 10 Education N
+DCPHK-NFMTC-H88MJ-PFHPY-QJ4BJ
+مفتاح Windows 10 Education
+WYPNQ-8C467-V2W6J-TX4WX-WT2RQ
+Windows 10 Education
+QFFDN-GRT3P-VKWWX-X7T3R-8B639
+مفتاح Windows 10 Enterprise
+84NGF-MHBT6-FXBX8-QWJK7-DRR8H
+نظام التشغيل Windows 10 Pro N
+2F77B-TNFGY-69QQF-B8YKP-D69TJ
+مفتاح Windows 10 Pro
+VK7JG-NPHTM-C97JM-9MPGT-3V66T
+ويندوز 10 هوم
+WNMTR-4C88C-JK8YV-HQ7T2-76DF9
+
+
+slmgr /skms kms8.msguides.com
+slmgr /ato
+
