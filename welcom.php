@@ -4,10 +4,11 @@
       $i=$_POST["iduti"];
       $p=$_POST["pwd"];
       $req="select * from utilisateur where idutilisateur='$i' and passwordd= '$p' ";
-      if($res=$cnx->query($req)){
+      if($res->numrow()==0){
       while($resu=$res->fetch_assoc()){
-      header('Location:');}
-    }
+      header('Location:page2.php');}}
+      
+    
     ?>
     <!DOCTYPE html>
     <html lang="en">
@@ -18,7 +19,8 @@
     </head>
     <body>
         
-        <?php  header('Location:obl.php'); ?>
+        <?php 
+         header('Location:obl.php'); ?>
         <script> alert(" your id or password is not correct");</script>
     </body>
     </html>

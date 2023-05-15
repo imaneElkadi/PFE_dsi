@@ -1,11 +1,12 @@
 body{
-    background: #d5eff7;
+    background: #ffffff;
 }
 h1{
+    background: #c0c0c0;
     font-size: 40px;
     font-family: Georgia;
     margin-top: 4%;
-    margin-bottom: 10px;
+    margin-bottom: 10%;
     color: rgb(0, 0, 0);
     text-align: center;
 }
@@ -56,10 +57,8 @@ img{
 
 .serv{
     color: #040303;
-    background: #c3d2df;
     font-size: 25px;
-    margin-right:250px ;
-    margin-left: 250px;
+    margin-left: 4%;
 }
 .serv h4{
     font-size: 40px;
@@ -72,23 +71,24 @@ img{
     margin-bottom:0.5cm;
 }
 .serv1{
-    background: #c3d2df;
+    width: 65%;
+    background: #dcdadaa9;
     color: black;
     font-size: 25px;
-    margin-right:100px;
-    margin-left:100px ;
+    margin-left:4% ;
 }
-video{
-    height: 400px;
-    width: 600px;
-    margin-bottom:10px;
-   margin-left: 350px;
-  }
+
   .p img{
-height:200;
-width: 250;
+height:320px;
+width: 350px;
 margin-left: 2%;
   }
+  .p{
+    height:300px;
+    width: 450px;
+    margin-left: 70%;
+    margin-top: -30%;
+      }
  .y img{
     height: 400px;
     width: 310px;
@@ -112,7 +112,7 @@ h3{
 img[name="m1"]{
     height: 700px;
     width: 600px;
-    margin-top: 10pxpx;
+    margin-top: 10px;
     margin-left: 30%;
     border-radius: 10%;
 }
