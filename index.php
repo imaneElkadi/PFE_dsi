@@ -16,7 +16,7 @@
           <li><a href="index.php">Home</a></li>
           <li><a href="description.php">About</a></li>
           <li><a href="well.php">Services</a></li>
-          <li><a href="#">Contact-us</a></li>
+          <li><a href="contact.php">Contact-us</a></li>
         </ul>
       </nav>
     </header>

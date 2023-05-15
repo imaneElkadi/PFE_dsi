@@ -17,11 +17,12 @@
     <li><a href="#">Shop</a></li>
     <li><a href="#">Blog</a></li>
     <li><a href="#">About</a></li>
-    <li><a href="#">Contact</a></li>
+    <li><a href="contact.php">Contact</a></li>
   </ul>
   <div class="footer__logo">
       <img src="logoo.png" alt="Logo">
     </div>
+  
   <style>
 
 nav {
@@ -129,8 +130,53 @@ a:hover {
 
         </script>
       </p></h1>
-      
-     
+      <form action="aboutMe.php">
+      <div class="aboutME">
+
+<button class="btn3" type="submit">
+    <div class="wrapper">
+        <p class="text">About me </p>
+
+        <div class="flower flower1">
+            <div class="petal one"></div>
+            <div class="petal two"></div>
+            <div class="petal three"></div>
+            <div class="petal four"></div>
+        </div>
+        <div class="flower flower2">
+            <div class="petal one"></div>
+            <div class="petal two"></div>
+            <div class="petal three"></div>
+            <div class="petal four"></div>
+        </div>
+        <div class="flower flower3">
+            <div class="petal one"></div>
+            <div class="petal two"></div>
+            <div class="petal three"></div>
+            <div class="petal four"></div>
+        </div>
+        <div class="flower flower4">
+            <div class="petal one"></div>
+            <div class="petal two"></div>
+            <div class="petal three"></div>
+            <div class="petal four"></div>
+        </div>
+        <div class="flower flower5">
+            <div class="petal one"></div>
+            <div class="petal two"></div>
+            <div class="petal three"></div>
+            <div class="petal four"></div>
+        </div>
+        <div class="flower flower6">
+            <div class="petal one"></div>
+            <div class="petal two"></div>
+            <div class="petal three"></div>
+            <div class="petal four"></div>
+        </div>
+    </div>
+</button>
+</div>
+</form>
     </div>
   </header>
 
@@ -141,24 +187,24 @@ a:hover {
 
   <!-- About section -->
   <section class="about">
-   
+
    
   </section>
 
   <!-- Blog section -->
   <section class="blog">
   
-<div  style="  display: flex;">
+<div style="display:flex;" >
 
 
-      <div class="blog__post" >
+      <div class="blog__post">
         
       <div class="cadre" >
   <h2>Ovulation and Period Calculator</h2>
   <p> Amazing things  what woman's body is capable of.</p>
   <a href="regle.php">Click here to learn more</a>
 </div>
-<div class="shopping-guide">
+<div class="shopping-guide" >
   <h2>Shop for your Fashion</h2>
   <!-- <p style="color:black;">Find the latest fashion trends and styles for women at our online store.</p> -->
   <a href="shop.php" class="cta-button">Shop Now</a>

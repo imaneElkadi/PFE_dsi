@@ -39,12 +39,3 @@
 h1{
     text-align: center;
 }
-a{
-    font-size: 70px;
-    text-decoration: none;
-    margin-left:30% ;
-   }
-a:hover{
-     color: #340a1a;
-    -ms-zoom-animation: default;
-    }

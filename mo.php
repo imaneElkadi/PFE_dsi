@@ -60,7 +60,7 @@
     <img src="PICSMAKEUP/p29.jpg">
     <img src="PICSMAKEUP/p30.jpg">
     </div>
-    <a href="index.php">go back to home</a>
+    <a  href="index.php">go back to home</a>
 
 
 </body>
