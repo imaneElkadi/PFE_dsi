@@ -33,11 +33,11 @@
   
   /* Banner styles */
   .banner {
-    background-image: url('banner.jpg');
+    /* background-image: url('shop/back\ \(3\).jpg'); */
     background-size: cover;
     background-position: center;
     text-align: center;
-    padding: 100px 0;
+    padding: 40px 0;
     color: #fff;
   }
   
