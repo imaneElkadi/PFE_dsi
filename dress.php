@@ -86,33 +86,33 @@
         <button>Add to Cart</button>
       </div>
       <div class="product">
-        <img src="shop/dress10.jpg" alt="Product 5">
-        <h3>41.00 $</h3>
-        <p>Rigular fit elegant dress.</p>
+        <img src="shop/dress11.jpg" alt="Product 5">
+        <h3>78.00 $</h3>
+        <p>Women Maxi Dress Floral Dress Party Dress Beach Dress Fairycore Clothing.</p>
         <button>Add to Cart</button>
       </div>
       <div class="product">
-        <img src="shop/dress10.jpg" alt="Product 5">
-        <h3>41.00 $</h3>
-        <p>Rigular fit elegant dress.</p>
+        <img src="shop/dress12.jpg" alt="Product 5">
+        <h3>39.00 $</h3>
+        <p>Stylewe offers stylish and concessional Dresse.</p>
         <button>Add to Cart</button>
       </div>
       <div class="product">
-        <img src="shop/dress10.jpg" alt="Product 5">
-        <h3>41.00 $</h3>
-        <p>Rigular fit elegant dress.</p>
+        <img src="shop/dress13.jpg" alt="Product 5">
+        <h3>49.00 $</h3>
+        <p>Blue dress with flowers.</p>
         <button>Add to Cart</button>
       </div>
       <div class="product">
-        <img src="shop/dress10.jpg" alt="Product 5">
-        <h3>41.00 $</h3>
-        <p>Rigular fit elegant dress.</p>
+        <img src="shop/dress14.jpg" alt="Product 5">
+        <h3>45.00 $</h3>
+        <p>Rigular white  elegant dress.</p>
         <button>Add to Cart</button>
       </div>
       <div class="product">
-        <img src="shop/dress10.jpg" alt="Product 5">
-        <h3>41.00 $</h3>
-        <p>Rigular fit elegant dress.</p>
+        <img src="shop/dress15.jpg" alt="Product 5">
+        <h3>60.00 $</h3>
+        <p>fit long elegant dress.</p>
         <button>Add to Cart</button>
       </div>
       <!-- Add more product items here -->

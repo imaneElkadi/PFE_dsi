@@ -21,7 +21,7 @@
     .header {
       text-align: center;
       padding: 20px;
-      background-color: #fcc8f8;
+      background-color: grey;
       color: black;
     }
 

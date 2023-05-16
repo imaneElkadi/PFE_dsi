@@ -13,10 +13,10 @@
   <header>
   <nav>
   <ul>
-    <li><a href="#">Home</a></li>
-    <li><a href="#">Shop</a></li>
-    <li><a href="#">Blog</a></li>
-    <li><a href="#">About</a></li>
+    <li><a href="index.php">Home</a></li>
+    <li><a href="paye.php">Shop</a></li>
+    <li><a href="blog.php">Blog</a></li>
+    <li><a href="description.php">About</a></li>
     <li><a href="contact.php">Contact</a></li>
   </ul>
   <div class="footer__logo">
