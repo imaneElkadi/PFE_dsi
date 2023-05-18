@@ -13,4 +13,27 @@ footer {
   .footer-container p {
     margin: 0;
   }
-  
+  label{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+ /* Custom Select Styles */
+
+
+#gender {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 200px;
+ margin-left: 480px;
+}
+
+
+
+

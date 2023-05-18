@@ -118,7 +118,7 @@ button:hover {
 <body>
   <div class="container">
     <div class="header">
-      <h1>The Ontha Shopping </h1>
+      <h1 style="font-family:'Trocchi', serif;">The Ontha Shopping </h1>
       <div class="logo">
   <img src="logoo.png" alt="Logo">
   

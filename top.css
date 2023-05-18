@@ -39,8 +39,7 @@
     text-align: center;
     padding: 40px 0;
     color: #fff;
-    background-color:#EFC3E6;
-    padding: 20px;
+    background-color: #EFC3E6;
   }
   
   .banner h1 {
@@ -53,7 +52,6 @@
     background-color: #fff;
     padding: 40px;
     text-align: center;
-   
   }
   
   .featured-products h2 {
@@ -68,7 +66,7 @@
     text-align: left;
     margin-right: 20px;
     margin-bottom: 40px;
-    background-color: rgb(255, 255, 255);
+    background-color: #fff;
     border: 1px solid #ccc;
     border-radius: 4px;
     padding: 20px;
@@ -95,20 +93,19 @@
   
   .product button {
     /* background-color: #333; */
-    background-color: #F9B4F6; 
+      background-color: #F9B4F6; 
     color: rgb(0, 0, 0);
    font-family:Verdana, Geneva, Tahoma, sans-serif;
+   font-weight: bold;
     padding: 10px 20px;
     border: none;
-    font-weight: bold;
     border-radius: 4px;
     cursor: pointer;
   }
   button:hover{
   
- background-color:#E983D8;
-  }
-  
+    background-color:#E983D8;
+     }
   /* Footer styles */
   footer {
     background-color: #333;
@@ -146,8 +143,10 @@
   
   }
 
-  p{
-    font-weight: bold;
-    font-size: 20px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-   }
+
+
+ p{
+  font-weight: bold;
+  font-size: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }

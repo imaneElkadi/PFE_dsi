@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>The Ontha</title>
-  <link rel="stylesheet" href="pant.css">
+  <link rel="stylesheet" href="pants.css">
 </head>
 <body>
   
@@ -26,7 +26,7 @@
     <section class="featured-products">
      
       <div class="product">
-        <img src="shop/pant1.jpg" alt="Product 1">
+        <img src="shop/pant1.jpg" >
         <h3>20.00 $</h3>
         <p>flare-jeans.</p>
         <button>Add to Cart</button>
@@ -120,7 +120,11 @@
   </main>
 
   <footer>
-    <p>&copy; 2023 The Ontha.</p>
+    <p>&copy; 2023 The Ontha.
+    <br> <br>
+        Contact: theOntha@gmail.com <br>
+        07 08 86 79 60
+    </p>
   </footer>
 </body>
 </html>

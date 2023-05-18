@@ -120,7 +120,11 @@
   </main>
 
   <footer>
-    <p>&copy; 2023 The Ontha.</p>
+    <p>&copy; 2023 The Ontha.
+    <br> <br>
+        Contact: theOntha@gmail.com <br>
+        07 08 86 79 60
+    </p>
   </footer>
 </body>
 </html>
