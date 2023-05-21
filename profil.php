@@ -6,7 +6,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>The ONTHA</title>
-  <link rel="stylesheet" href="profil.css">
+  <link rel="stylesheet" href="profile.css">
 </head>
 <body>
   <!-- Header section -->
@@ -197,24 +197,25 @@ a:hover {
 <div style="display:flex;" >
 
 
-      <div class="blog__post">
+      <!-- <div class="blog__post"> -->
         
       <div class="cadre" >
   <h2>Ovulation and Period Calculator</h2>
   <p> Amazing things  what woman's body is capable of.</p>
   <a href="regle.php">Click here to learn more</a>
 </div>
+
 <div class="shopping-guide" >
   <h2>Shop for your Fashion</h2>
   <!-- <p style="color:black;">Find the latest fashion trends and styles for women at our online store.</p> -->
   <a href="shop.php" class="cta-button">Shop Now</a>
 </div>
-  </div>
+  <!-- </div> -->
 
   
 </div>
 
-</div>
+
 </section>
   <!-- Contact section -->
   <section class="get-in-touch">

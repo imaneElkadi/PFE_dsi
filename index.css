@@ -740,3 +740,11 @@ color: #000000;
   pointer-events: auto;
   cursor: pointer;
 }
+
+
+
+.div1 {
+display: inline-block;
+margin-right: 80px;
+margin-left: 60;
+}

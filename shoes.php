@@ -11,7 +11,7 @@
 
   <main>
     <section class="banner">
-      <h1>Welcome to Your Store for Tops</h1>
+      <h1>Welcome to Your Store for shoes</h1>
       <p style="color:grey; font-size:30px;">Discover amazing deals and discounts!</p>
       <div class="logo">
   <!-- <img src="shop/top.png" alt="Logo"> -->

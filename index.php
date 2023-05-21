@@ -3,7 +3,7 @@
 <html>
   <head>
     <title>Women's Beauty Website</title>
-    <link rel="stylesheet" href="front.css">
+    <link rel="stylesheet" href="index.css">
    
   </head>
   <body>
@@ -46,7 +46,7 @@
            types and tones. <br>
          </p> </div> 
     <!-- form login................................................................... -->
-    <form method="POST" action="validinsert.php">
+    <form method="POST" action="page2.php">
 <div class="container">
   <div class="box"></div>
   <div class="container-forms">
@@ -81,7 +81,8 @@
         <div class="table">
           <div class="table-cell">
             
-            <input name="idutil" placeholder="idutilisateur" type="text" /><input name="Password" placeholder="Password" type="Password" />
+            <input name="id" placeholder="idutilisateur" type="text" />
+            <input name="pwd" placeholder="Password" type="Password" />
             <div class="btn">
              <a href="welcom.php">log in</a>
             </div>
@@ -247,11 +248,23 @@
   </script>
     </main>
     <footer>
-      <p>&copy; the ONTHA <br>
+      <p>
+        <div class="div1">&copy; the ONTHA <br>
       &copy; www.theOntha.com <br>
       -email:swdsara5@gmail.com <br>
       -adresse 
-                     </p>
+      </div>
+      <div class="div1">&copy; the ONTHA <br>
+      &copy; www.theOntha.com <br>
+      -email:swdsara5@gmail.com <br>
+      -adresse 
+      </div>
+      <div class="div1">&copy; the ONTHA <br>
+      &copy; www.theOntha.com <br>
+      -email:swdsara5@gmail.com <br>
+      -adresse 
+      </div>
+       </p>
     </footer>
   </body>
 </html>

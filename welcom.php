@@ -1,26 +1,18 @@
 <?php
+session_start();
       require "connect.php";
 
-      $i=$_POST["iduti"];
-      $p=$_POST["pwd"];
-      $req="select * from utilisateur where idutilisateur='$i' and passwordd= '$p' ";
-      if($res->numrow()==0){
-      while($resu=$res->fetch_assoc()){
-      header('Location:page2.php');}}
-      
+      $i=$_SESSION['id'];
+      $p=$_SESSION['pwd'];
+      $req="select * from user where id='$i' and password= '$p' ";
+      $res=$cnx->query($req);
+      if($res->num_rows!=0){
+      header('Location:profil.php');}
+      else if($res->num_rows==0){
     
-    ?>
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-
-        
-    </head>
-    <body>
-        
-        <?php 
-         header('Location:obl.php'); ?>
-        <script> alert(" your id or password is not correct");</script>
-    </body>
-    </html>
+   
+         header('Location:obl.php'); 
+         echo" <script> alert(' your id or password is not correct');</script>";
+      
+   
+      } ?>

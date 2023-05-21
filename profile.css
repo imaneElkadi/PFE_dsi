@@ -13,7 +13,7 @@
 	font-family: Arial, sans-serif;
 	font-size: 16px;
 	line-height: 1.5;
-	background-image: url("pngegg.png");
+	/* background-image: url("pngegg.png"); */
 	background-size:520px;
 	
 
@@ -114,8 +114,10 @@
 	}
 	
 	/* Blog section styles */
+
 	.blog {
 	padding: 4rem 0;
+	
 	}
 	
 	.blog__heading {
@@ -131,7 +133,7 @@
 	.blog__posts {
 	max-width: 1200px;
 	margin: 0 auto;
-	display: flex;
+	display: inline-block;
 	flex-wrap: wrap;
 	justify-content: space-between;
 	}
@@ -327,8 +329,8 @@
 	}
 	.get-in-touch {
 	  background-color: #f7f7f7;
-	  padding: 6rem 0;
-	
+	  padding: 2rem 0;
+
 	}
 	
 	.get-in-touch__heading {
@@ -453,6 +455,8 @@
 		text-align: center;
 		background-color: #fce4ec;
 		box-shadow: 0 0 10px rgba(0,0,0,0.2);
+		display: inline-block;
+		
 	  }
 	  
 	  .cadre h2 {
@@ -509,6 +513,9 @@
 		box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 		background-image: url("shop.png");
 		background-size: 600px;
+		display: inline-block;
+		margin-left: 100px;
+		margin-right: 80px;
 	  }
 	  
 	  .shopping-guide h2 {
