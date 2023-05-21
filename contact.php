@@ -120,7 +120,7 @@
           <textarea id="message" name="message" rows="5" required></textarea>
         </div>
 
-        <button  class ="btn1" type="submit">Submit</button>
+        <button  class ="btn1" type="submit">Send</button>
       </form
     
   </div>
