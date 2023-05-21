@@ -102,7 +102,7 @@
   </section>
   <!-- Fin de la section principale -->
   <div class="video-container">
-    <video src="shop/ved1.mp4" autoplay muted></video>
+    <video src="shop/ved3.mp4" autoplay muted></video>
   </div>
 
    

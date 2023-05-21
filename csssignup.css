@@ -9,7 +9,7 @@ body{
     border-radius: 16px;
     margin-top: 130px;
     color: #eee;
-    margin-left: 475px;
+    margin-left: 40%;
     left: 100px;
   }
   video{
@@ -30,6 +30,7 @@ body{
     padding: 100px 24px 24px;
     gap: 16px;
     text-align: center;
+
   }
   
   /*Form text*/
