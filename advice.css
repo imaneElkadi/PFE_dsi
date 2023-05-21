@@ -1,15 +1,4 @@
-body{
-    background: #ffffff;
-}
-h1{
-    background: #c0c0c0;
-    font-size: 40px;
-    font-family: Georgia;
-    margin-top: 4%;
-    margin-bottom: 10%;
-    color: rgb(0, 0, 0);
-    text-align: center;
-}
+
 p{
     font-size: 20px;
     font-family: Georgia;
@@ -54,35 +43,6 @@ img{
     margin-bottom:10px;
    margin-left:-230px;
 }
-
-.serv{
-    color: #040303;
-    font-size: 25px;
-    margin-left: 4%;
-}
-.serv h4{
-    font-size: 40px;
-    color: rgb(29, 42, 62);
-    margin-bottom:0.5cm;
-}
-.serv1 h4{
-    font-size: 40px;
-    color: rgb(29, 42, 62);
-    margin-bottom:0.5cm;
-}
-.serv1{
-    width: 65%;
-    background: #dcdadaa9;
-    color: black;
-    font-size: 25px;
-    margin-left:4% ;
-}
-
-  .p img{
-height:320px;
-width: 350px;
-margin-left: 2%;
-  }
   .p{
     height:300px;
     width: 450px;
