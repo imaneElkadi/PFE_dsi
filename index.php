@@ -3,13 +3,10 @@
 <html>
   <head data-aos="fade-top">
     <title>Women's Beauty Website</title>
-<<<<<<< HEAD
     <link rel="stylesheet" href="index.css">
-=======
+
     <link rel="stylesheet" href="front.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-
->>>>>>> 35ba77e15b6ef810e1668b07c59979066e1fa663
    
   </head>
   <body>
@@ -52,11 +49,8 @@
            types and tones. <br>
          </p> </div> 
     <!-- form login................................................................... -->
-<<<<<<< HEAD
     <form method="POST" action="page2.php">
-=======
     <form method="POST" action="validinsert.php" data-aos="fade-right">
->>>>>>> 35ba77e15b6ef810e1668b07c59979066e1fa663
 <div class="container">
   <div class="box"></div>
   <div class="container-forms">
@@ -91,14 +85,11 @@
         <div class="table">
           <div class="table-cell">
             
-<<<<<<< HEAD
             <input name="id" placeholder="idutilisateur" type="text" />
             <input name="pwd" placeholder="Password" type="Password" />
-=======
             <input name="idutil" placeholder="idutilisateur" type="text" />
             <input name="Pwd" placeholder="Password" type="Password" />
->>>>>>> 35ba77e15b6ef810e1668b07c59979066e1fa663
-            <div class="btn">
+                        <div class="btn">
              <a href="welcom.php">log in</a>
             </div>
           </div>
@@ -273,28 +264,14 @@
 </a>
 </div>
 
+
 <!-- partial -->
   <script src='https://cdnjs.cloudflare.com/ajax/libs/alpinejs/3.10.2/cdn.js'>
   </script>
     </main>
-<<<<<<< HEAD
-    <footer>
-      <p>
-        <div class="div1">&copy; the ONTHA <br>
-=======
     <footer data-aos="fade-top">
+        <div class="div1">&copy; the ONTHA <br>
       <p>&copy; the ONTHA <br>
->>>>>>> 35ba77e15b6ef810e1668b07c59979066e1fa663
-      &copy; www.theOntha.com <br>
-      -email:swdsara5@gmail.com <br>
-      -adresse 
-      </div>
-      <div class="div1">&copy; the ONTHA <br>
-      &copy; www.theOntha.com <br>
-      -email:swdsara5@gmail.com <br>
-      -adresse 
-      </div>
-      <div class="div1">&copy; the ONTHA <br>
       &copy; www.theOntha.com <br>
       -email:swdsara5@gmail.com <br>
       -adresse 
