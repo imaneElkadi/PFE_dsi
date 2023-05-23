@@ -2,11 +2,11 @@
 <html lang="en">
 <head>
     <title>Sign up</title>
-    <link rel="stylesheet" href="csssignup.css">
+    <link rel="stylesheet" href="forget.css">
 </head>
 <body>
 <video autoplay loop muted plays and-inline class="back-video">
-            <source src="pics/vid.mp4" type="video/mp4">
+            <source src="shop/ved1.mp4" type="video/mp4">
         </video>
 <div class="form-box">
 <form class="form" method="POST" action="passw.php"  >
