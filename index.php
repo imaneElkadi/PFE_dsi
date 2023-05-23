@@ -7,6 +7,8 @@
 
     <link rel="stylesheet" href="front.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+
    
   </head>
   <body>
@@ -27,7 +29,30 @@
       <br><br>
   <h1>the women's world</h1>
   <h5>join us my ladies te get the right beauty grow up steps </h5>
-    </div>
+  <div class="wrap">
+         <div class="bpn">
+            <div class="icon">
+               <i class="fab fa-facebook-f"></i>
+            </div>
+            <span>Facebook</span>
+         </div>
+         <div class="bpn">            <div class="icon">
+               <i class="fab fa-twitter"></i>
+            </div>
+            <span>Twitter</span>
+         </div>
+         <div class="bpn">            <div class="icon">
+               <i class="fab fa-instagram"></i>
+            </div>
+            <span>Instagram</span>
+         </div>
+         <div class="bpn">
+            <div class="icon">
+               <i class="fab fa-youtube"></i>
+            </div>
+            <span>YouTube</span>
+         </div>
+      </div> </div>
     <div class="f">
       <h1>Get ready my ladies</h1>
     </div>
@@ -87,8 +112,7 @@
             
             <input name="id" placeholder="idutilisateur" type="text" />
             <input name="pwd" placeholder="Password" type="Password" />
-            <input name="idutil" placeholder="idutilisateur" type="text" />
-            <input name="Pwd" placeholder="Password" type="Password" />
+  
                         <div class="btn">
              <a href="welcom.php">log in</a>
             </div>
