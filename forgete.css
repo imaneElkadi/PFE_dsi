@@ -38,11 +38,13 @@ body{
   .title {
     font-weight: bold;
     font-size: 1.6rem;
+    text-shadow: 2px 2px 4px #000;
   }
   
   .subtitle {
     font-size: 1rem;
     color: #ffffff;
+    text-shadow: 4px 4px 4px #000;
   }
   
   /*Inputs box*/

@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <title>Sign up</title>
-    <link rel="stylesheet" href="forget.css">
+    <link rel="stylesheet" href="forgete.css">
 </head>
 <body>
 <video autoplay loop muted plays and-inline class="back-video">
