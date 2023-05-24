@@ -34,7 +34,7 @@
       <div class="product">
         <img src="shop/dress2.jpg" alt="Product 2">
         <h3>56.00 $</h3>
-        <p>Liyge shoulder dress.</p>
+        <p>Liyge  shoulder dress. <br>. </p>
         <button>Add to Cart</button>
       </div>
       <div class="product">
@@ -64,19 +64,19 @@
       <div class="product">
         <img src="shop/dress7.jpg" alt="Product 5">
         <h3>61.00 $</h3>
-        <p>blue decent Abaya.</p>
+        <p>blue decent Abaya. <br> .</p>
         <button>Add to Cart</button>
       </div>
       <div class="product">
         <img src="shop/dress8.jpg" alt="Product 5">
         <h3>90.00 $</h3>
-        <p>Ramadan out fit</p>
+        <p>Ramadan out fit <br>.</p>
         <button>Add to Cart</button>
       </div>
       <div class="product">
         <img src="shop/dress9.jpg" alt="Product 5">
         <h3>55.00 $</h3>
-        <p>Iftar party outfit.</p>
+        <p>Iftar party outfit. <br>.</p>
         <button>Add to Cart</button>
       </div>
       <div class="product">
@@ -94,25 +94,25 @@
       <div class="product">
         <img src="shop/dress12.jpg" alt="Product 5">
         <h3>39.00 $</h3>
-        <p>Stylewe offers stylish and concessional Dresse.</p>
+        <p>Stylewe offers stylish and concessional Dresse. <br>.</p>
         <button>Add to Cart</button>
       </div>
       <div class="product">
         <img src="shop/dress13.jpg" alt="Product 5">
         <h3>49.00 $</h3>
-        <p>Blue dress with flowers.</p>
+        <p>Blue dress with flowers. <br>. <br>.</p>
         <button>Add to Cart</button>
       </div>
       <div class="product">
         <img src="shop/dress14.jpg" alt="Product 5">
         <h3>45.00 $</h3>
-        <p>Rigular white  elegant dress.</p>
+        <p>Rigular white  elegant dress. <br>. <br>.</p>
         <button>Add to Cart</button>
       </div>
       <div class="product">
         <img src="shop/dress15.jpg" alt="Product 5">
         <h3>60.00 $</h3>
-        <p>fit long elegant dress.</p>
+        <p>fit long elegant dress. <br>. <br>. <br>.</p>
         <button>Add to Cart</button>
       </div>
       <!-- Add more product items here -->

@@ -64,7 +64,7 @@
   .product {
     display: inline-block;
     width: 200px;
-    /* height:460px; */
+    height:500px;
     text-align: left;
     margin-right: 20px;
     margin-bottom: 40px;
@@ -77,8 +77,8 @@
   }
   
   .product img {
-    width: 100%;
-    height: auto;
+    width: 150px;
+    height: 300px;
     object-fit: cover;
     margin-bottom: 10px;
   }
@@ -98,14 +98,13 @@
     background-color: #F9B4F6; 
     color: rgb(0, 0, 0);
    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    padding: 10px 20px;
+    padding: 15px;
     border: none;
     font-weight: bold;
     border-radius: 4px;
     cursor: pointer;
   }
   button:hover{
-  
  background-color:#E983D8;
   }
   
