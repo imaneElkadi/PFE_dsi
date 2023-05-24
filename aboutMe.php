@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>The ONTHA</title>
-  <link rel="stylesheet" href="aboutme.css">
+  <link rel="stylesheet" href="aboutMe.css">
 
 </head>
 <body>
@@ -103,7 +103,9 @@
                         <tr>
                             <td>Hobbies</td>
                             <td>:</td>
-                            <td>Diving, Reading Book</td>
+                            <td><input type="text" id="inputField" >
+      <button id="saveButton">Save</button>
+     <p id="savedParagraph"></p></td>
                         </tr>
                         <tr>
                             <td>Age</td>
@@ -121,48 +123,21 @@
         </div>
 
         <h2>SOCIAL MEDIA</h2>
-        <div class="card">
-            <div class="card-body">
+        <!-- <div class="card">
+            <div class="card-body"> -->
                
-                <div class="social-media">
-                    <span class="fa-stack fa-sm">
-                      <a href="https://www.facebook.com/">
-                        <i class="fas fa-circle fa-stack-2x"></i>
-                        <i class="fab fa-facebook fa-stack-1x fa-inverse"></i></a>
-                    </span>
-                    <span class="fa-stack fa-sm">
-                      <a href="https://twitter.com/">
-                        <i class="fas fa-circle fa-stack-2x"></i>
-                        <i class="fab fa-twitter fa-stack-1x fa-inverse"></i></a>
-                    </span>
-                    <span class="fa-stack fa-sm">
-          <a href="https://www.instagram.com/">
-                        <i class="fas fa-circle fa-stack-2x"></i>
-                        <i class="fab fa-instagram fa-stack-1x fa-inverse"></i></a>
-                    </span>
-                    <!-- <span class="fa-stack fa-sm">
-                        <i class="fas fa-circle fa-stack-2x"></i>
-                        <i class="fab fa-invision fa-stack-1x fa-inverse"></i>
-                    </span> -->
-                    <!-- <span class="fa-stack fa-sm">
-                        <i class="fas fa-circle fa-stack-2x"></i>
-                        <i class="fab fa-github fa-stack-1x fa-inverse"></i>
-                    </span> -->
-                    <span class="fa-stack fa-sm">
-              
-                    <a href="https://web.whatsapp.com/">
-                        <i class="fas fa-circle fa-stack-2x"></i>
-                        <i class="fab fa-whatsapp fa-stack-1x fa-inverse"></i></a>
-                    </span>
-                    <span class="fa-stack fa-sm">
-                      <a href="https://www.snapchat.com/">
-                        <i class="fas fa-circle fa-stack-2x"></i>
-                        <i class="fab fa-snapchat fa-stack-1x fa-inverse"></i></a>
-                    </span>
-                </div>
-            </div>
-        </div>
+            <!-- <div class="container2"> -->
+   
+    <div class="social-icons">
+      <a href="https://www.facebook.com/" class="icon facebook"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://twitter.com/home" class="icon twitter"><i class="fab fa-twitter"></i></a>
+      <a href="https://www.instagram.com/" class="icon instagram"><i class="fab fa-instagram"></i></a>
+      <a href="linkedin.com" class="icon linkedin"><i class="fab fa-linkedin-in"></i></a>
     </div>
+  <!-- </div> -->
+
+        <!-- </div>
+    </div> -->
 
 
 
@@ -171,6 +146,6 @@
 
 
 
-
+<script src="about.js"></script>
 </body>
 </html>

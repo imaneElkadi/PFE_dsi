@@ -4,12 +4,13 @@ body{
 }
 .form-box {
     max-width: 400px;
-    background-image: url(flow.png);
+    /* background-color: #ea96af; */
+    background-color: linear-gradient(to right, #ff80b3, #ff99cc);
     overflow: hidden;
     border-radius: 16px;
     margin-top: 130px;
     color: #eee;
-    margin-left: 40%;
+    margin-left: 35%;
     left: 100px;
   }
   video{
@@ -37,11 +38,13 @@ body{
   .title {
     font-weight: bold;
     font-size: 1.6rem;
+    text-shadow: 2px 2px 4px #000;
   }
   
   .subtitle {
     font-size: 1rem;
     color: #ffffff;
+    text-shadow: 4px 4px 4px #000;
   }
   
   /*Inputs box*/
@@ -78,7 +81,7 @@ body{
     transition: background-color .3s ease;
   }
   .form button:hover {
-    background-color: #6f66f2;
+    background-color: #ff99cc;
   }
   .dem{
     align-items: center;

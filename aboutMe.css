@@ -288,37 +288,94 @@ background-color: #F1C0B9;
     text-align: center;
     width: 90%;
 }
+/* socialmedia */
 
-.social-media span {
-    margin: 0 10px;
+
+/* .container2 {
+  text-align: center;
+  padding: 50px;
+} */
+
+
+
+/* .social-icons {
+  margin-top: 20px;
+} */
+
+.icon {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  margin: 10px;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 36px;
+  line-height: 80px;
+  text-align: center;
+  background-color: #333;
+  transition: transform 0.3s ease-in-out;
 }
 
-.fa-facebook:hover {
-    color: #4267b3 !important;
+.icon i {
+  transition: transform 0.3s ease-in-out;
 }
 
-.fa-twitter:hover {
-    color: #1da1f2 !important;
+.icon:hover {
+  transform: rotate(360deg) scale(1.2);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
-.fa-instagram:hover {
-    color: #ce2b94 !important;
+.facebook {
+  background-color: #3b5998;
 }
 
-.fa-invision:hover {
-    color: #f83263 !important;
+.twitter {
+  background-color: #1da1f2;
 }
 
-.fa-github:hover {
-    color: #161414 !important;
+.instagram {
+  background-color: #e4405f;
 }
 
-.fa-whatsapp:hover {
-    color: #25d366 !important;
+.linkedin {
+  background-color: #0077b5;
 }
 
-.fa-snapchat:hover {
-    color: #fffb01 !important;
-}
 
 /* End */
+
+/* hobbit css */
+input[type="text"] {
+  width: 300px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  font-size: 16px;
+  color: #333;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"]:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+#saveButton {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #FFB6C1;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#saveButton:hover {
+  background-color: #FFB6C1;
+}
+
+#savedParagraph {
+  margin-top: 10px;
+  font-weight: bold;
+}
