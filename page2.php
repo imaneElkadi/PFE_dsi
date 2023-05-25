@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The ONTHA</title>
-    <link rel="stylesheet" href="pages2.css">
+    <link rel="stylesheet" href="page2.css">
 
 <nav>
   <ul>
@@ -231,8 +231,19 @@
 </br>
 
 <footer>
-      <p>&copy; the ONTHA</p>
+     
+ 
+<section id="banner">
+  <div class="phrases">
+  <p>&copy; the ONTHA</p>
+    <h3>Discover</h3>
+    <h1>The World of Creativity</h1>
+    <p>Explore our collection of stunning images, captivating videos, and much more!</p>
+    <a href="#" class="btn">Get Started</a>
+    </section>
     </footer>
 
+  </div>
+</section>
 </body>
 </html>
