@@ -60,10 +60,11 @@ flex-direction: column;}
     grid-gap: 20px;
   }
   .sidebar{
-    width:  40%;
+    width:  37%;
     border-radius: 5px;
     background-color: rgb(246, 216, 241);
-    margin-left: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
     padding: 15px;
     text-align:center;
   }
