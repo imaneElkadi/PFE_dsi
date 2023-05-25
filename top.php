@@ -18,6 +18,7 @@
                   <h3>TOTAL</h3>
                   <h2 id="total">$ 0.00</h2>
             </div>
+            <button class="pay"><a href="paye.php"> paye </a></button>
           </div>
         </div>
          <script src="top.js"></script>

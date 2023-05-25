@@ -18,7 +18,6 @@
   <a href="dress.php" class="link">Dresses</a>
   <a href="pant.php" class="link">Pants</a>
   <a href="jacket.php" class="link">Jackets</a>
-  <a href="shoes.php" class="link">Shoes</a>
   <a href="top.php" class="link">Tops</a>
 </div>
       <form>
