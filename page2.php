@@ -1,3 +1,41 @@
+
+
+<!-- signup_process.php -->
+<?php
+require "connect.php";
+
+// Retrieve username and password from the form
+$username = $_POST['idutil'];
+$password = $_POST['Password'];
+$name = $_POST['name'];
+$email = $_POST['email'];
+// Check if the username already exists
+$sql = "SELECT * FROM user WHERE id = '$username'";
+$result = $cnx->query($sql);
+
+if ($result->num_rows > 0) {
+    // Username already taken, display an error message or redirect to a failure page
+    echo "<script>alert('Username not valide');</script>";
+    echo "<script>javascript:window.location='index.php';</script>";
+    exit();
+} else {
+    // Insert the new user into the database
+    $sql = "INSERT INTO user VALUES ('$username','$name','$email', '$password')";
+    $cnx->query($sql);
+    // if ($cnx->query($sql) === TRUE) {
+      
+    //     echo "Sign up successful";
+    // } else {
+       
+    //     echo "Error: " . $sql . "<br>" . $cnx>error;
+    // }
+}
+
+
+?>
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,7 +43,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The ONTHA</title>
-    <link rel="stylesheet" href="pages2.css">
+    <link rel="stylesheet" href="page2.css">
 </head>
 <body>
     <header>

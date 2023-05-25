@@ -5,14 +5,45 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>THE ONTHA</title>
-  <link rel="stylesheet" href="valider.css">
+  <link rel="stylesheet" href="vaalider.css">
 </head>
 <body>
-<div class="checkbox-container">
-  <input type="checkbox" id="checkbox" />
-  <label for="checkbox" class="checkbox-label">hijabi</label>
+
+<header>
+<h1>Additional information :</h1>
+    <div class="logo">
+    <img src="logoo.png" alt="Logo">
+  </div>
+</header>
+<img src="shop/hijab.png" style="display: block; 
+  max-width: 100%;
+  width:200px;
+  height: 200px; 
+  margin:  auto 100px;
+ 
+  ">
+  <img src="shop/nohijabi.png" style=" position: absolute;
+  top: 200px;
+  right: 60px;
+  max-width: 100%;
+  height: 200px;
+  width=:200px;
+  ">
+  <form action="" method="POST">
+  <div class="cadre">
+  <h2>Do you wear Hijab?</h2>
+<div class="radio-container">
+  <input type="radio" id="radio1" name="hijabi" value="hijabi" />
+  <label for="radio1" class="radio-label">Yes</label>
 </div>
 
+<div class="radio-container" style=" margin-left: 20px;">
+  <input type="radio" id="radio2" name="hijabi" value="nohijabi" />
+  <label for="radio2" class="radio-label">No</label>
+</div>
+</div>
+<button type="submit"> Valider</button>
+</form>
 
 </body>
 </html>

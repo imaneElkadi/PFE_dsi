@@ -5,7 +5,7 @@
     <title>Women's Beauty Website</title>
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
-    <link rel="stylesheet" href="front.css">
+    <!-- <link rel="stylesheet" href="front.css"> -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
 
@@ -74,8 +74,8 @@
            types and tones. <br>
          </p> </div> 
     <!-- form login................................................................... -->
-    <form method="POST" action="page2.php">
-    <form method="POST" action="validinsert.php" data-aos="fade-right">
+   
+   
 <div class="container">
   <div class="box"></div>
   <div class="container-forms">
@@ -109,12 +109,13 @@
       <div class="form-item log-in">
         <div class="table">
           <div class="table-cell">
-            
-            <input name="id" placeholder="idutilisateur" type="text" />
-            <input name="pwd" placeholder="Password" type="Password" />
+          <form method="POST" action="validinsert.php" data-aos="fade-right">
+            <input name="id" placeholder="idutilisateur" type="text" required />
+            <input name="pwd" placeholder="Password" type="Password" required/>
   
-                        <div class="btn">
-             <a href="welcom.php">log in</a>
+                        <div class="bttn">
+                        <button type="submit"> log in</button>
+                        </form>
             </div>
           </div>
         </div>
@@ -122,21 +123,22 @@
       <div class="form-item sign-up">
         <div class="table">
           <div class="table-cell">
-            <input name="id" placeholder="idUtilisateur" type="text" />
-              <input name="name" placeholder="Full Name" type="text" />
-                <input name="email" placeholder="email" type="email" />
+            <form action="page2.php" method="POST">
+            <input name="idutil" placeholder="idUtilisateur" type="text" required/>
+              <input name="name" placeholder="Full Name" type="text" required />
+                <input name="email" placeholder="email" type="email" required />
                   <input name="Password" placeholder="Password" type="Password" />
             <div class="bttn">
              <button type="submit"> Sign up</button>
             </div>
-           
+            </form>
           </div>
         </div>
       </div>
     </div>
   </div>
 </div>
-</form>
+
 <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script><script  src="u.js"></script>
   <!-- end form login........................... -->
   <div class="img" data-aos="fade-top">
@@ -326,11 +328,11 @@
               <li><a href="jacket.php">jackets</a></li>
               <li><a href="top.php">tops</a></li>
             </ul>
-            <ul class="box">
+            <!-- <ul class="box">
               <li class="link_name">Account</li>
               <li><a href="profil.php">Profile</a></li>
               <li><a href="aboutMe.php">About me</a></li>
-            </ul>
+            </ul> -->
             <ul class="box">
               <li class="link_name">advices</li>
               <li><a href="wellness.php">wellness</a></li>
