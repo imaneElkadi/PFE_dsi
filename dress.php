@@ -1,130 +1,28 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>The Ontha</title>
-  <link rel="stylesheet" href="dress.css">
-</head>
-<body>
-  
-
-  <main>
-    <section class="banner">
-      <h1>Welcome to Your Store for dresses</h1>
-      <p style="color:grey; font-size:30px;">Discover amazing deals and discounts!</p>
-      <div class="logo">
-  <img src="shop/dress.png" alt="Logo">
-  
-</div>
-<div class="logo2">
-  <img src="shop/dress.png" alt="Logo">
-  
-</div>
-    </section>
-
-    <section class="featured-products">
-     
-      <div class="product">
-        <img src="shop/dress1.png" alt="Product 1">
-        <h3>60.00 $</h3>
-        <p>Summer dress square neck.</p>
-        <button>Add to Cart</button>
-      </div>
-      <div class="product">
-        <img src="shop/dress2.jpg" alt="Product 2">
-        <h3>56.00 $</h3>
-        <p>Liyge  shoulder dress. <br>. </p>
-        <button>Add to Cart</button>
-      </div>
-      <div class="product">
-        <img src="shop/dress3.jpg" alt="Product 3">
-        <h3>70.00 $</h3>
-        <p>Long green dress for summer.</p>
-        <button>Add to Cart</button>
-      </div>
-      <div class="product">
-        <img src="shop/dress4.jpg" alt="Product 4">
-        <h3>74.00 $</h3>
-        <p>Yellow selkie puff dress dupe.</p>
-        <button>Add to Cart</button>
-      </div>
-      <div class="product">
-        <img src="shop/dress5.jpg" alt="Product 5">
-        <h3>59.00 $</h3>
-        <p>Elegant midi length dress.</p>
-        <button>Add to Cart</button>
-      </div>
-      <div class="product">
-        <img src="shop/dress6.jpg" alt="Product 5">
-        <h3>80.00 $</h3>
-        <p>Decent & Stylish hijab dress & Abaya</p>
-        <button>Add to Cart</button>
-      </div>
-      <div class="product">
-        <img src="shop/dress7.jpg" alt="Product 5">
-        <h3>61.00 $</h3>
-        <p>blue decent Abaya. <br> .</p>
-        <button>Add to Cart</button>
-      </div>
-      <div class="product">
-        <img src="shop/dress8.jpg" alt="Product 5">
-        <h3>90.00 $</h3>
-        <p>Ramadan out fit <br>.</p>
-        <button>Add to Cart</button>
-      </div>
-      <div class="product">
-        <img src="shop/dress9.jpg" alt="Product 5">
-        <h3>55.00 $</h3>
-        <p>Iftar party outfit. <br>.</p>
-        <button>Add to Cart</button>
-      </div>
-      <div class="product">
-        <img src="shop/dress10.jpg" alt="Product 5">
-        <h3>41.00 $</h3>
-        <p>Rigular fit elegant dress.</p>
-        <button>Add to Cart</button>
-      </div>
-      <div class="product">
-        <img src="shop/dress11.jpg" alt="Product 5">
-        <h3>78.00 $</h3>
-        <p>Women Maxi Dress Floral Dress Party Dress Beach Dress Fairycore Clothing.</p>
-        <button>Add to Cart</button>
-      </div>
-      <div class="product">
-        <img src="shop/dress12.jpg" alt="Product 5">
-        <h3>39.00 $</h3>
-        <p>Stylewe offers stylish and concessional Dresse. <br>.</p>
-        <button>Add to Cart</button>
-      </div>
-      <div class="product">
-        <img src="shop/dress13.jpg" alt="Product 5">
-        <h3>49.00 $</h3>
-        <p>Blue dress with flowers. <br>. <br>.</p>
-        <button>Add to Cart</button>
-      </div>
-      <div class="product">
-        <img src="shop/dress14.jpg" alt="Product 5">
-        <h3>45.00 $</h3>
-        <p>Rigular white  elegant dress. <br>. <br>.</p>
-        <button>Add to Cart</button>
-      </div>
-      <div class="product">
-        <img src="shop/dress15.jpg" alt="Product 5">
-        <h3>60.00 $</h3>
-        <p>fit long elegant dress. <br>. <br>. <br>.</p>
-        <button>Add to Cart</button>
-      </div>
-      <!-- Add more product items here -->
-    </section>
-  </main>
-
-  <footer>
-    <p>&copy; 2023 The Ontha.
-    <br> <br>
-        Contact: theOntha@gmail.com <br>
-        07 08 86 79 60
-    </p>
-  </footer>
-</body>
+<DOCTYPE html>
+<html>
+    <head>
+         <script src="https://kit.fontawesome.com/92d70a2fd8.js" crossorigin="anonymous"></script>
+         <link rel="stylesheet" href="dress.css">
+    </head>
+    <body> 
+    <div class="header">
+             <p class="logo">the ontha shop</p>
+             <div class="cart"><i class="fa-solid fa-cart-shopping"></i><p id="count">0</p></div>
+        </div>
+        <div class="container">
+        <!--<p><i class="fas fa-shopping-cart"></i></p></a>-->
+          <div id="root"></div>  
+          <div class="sidebar">
+            <div class="head"><p>My cart</p></div>
+              <div id="cartItem">your cart is empty</div>
+                <div class="foot">
+                  <h3>TOTAL</h3>
+                  <h2 id="total">$ 0.00</h2>
+            </div>
+          </div>
+        </div>
+         <script src="dress.js"></script>
+    </body>
+         
+    
 </html>

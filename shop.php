@@ -66,7 +66,6 @@
           <p>Embrace warmth and comfort in style.</p>
         </div>
       </div>
-      
       <div class="card">
         <img src="shop/c4.jpg">
         <div class="card-header">
@@ -105,19 +104,6 @@
     <video src="shop/ved3.mp4" autoplay muted></video>
   </div>
 
-   
-
-  <!-- Pied de page -->
-  <!-- <footer>
-    <p>&copy; Contactez-nous au 06 98 87 82 00</p>
-    <div class="social-media">
-      <p><i class="fab fa-facebook-f"></i></p>
-      <p><i class="fab fa-twitter"></i></p>
-      <p><i class="fab fa-instagram"></i></p>
-      <p><i class="fab fa-linkedin-in"></i></p>
-    </div>
-  </footer> -->
-  <!-- Fin du pied de page -->
 
   <footer>
   <div class="footer-container">
