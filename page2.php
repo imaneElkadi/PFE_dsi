@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,232 +6,183 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The ONTHA</title>
     <link rel="stylesheet" href="pages2.css">
-
-<nav>
-  <ul>
-    <li><a href="index.php">Home</a></li>
-    <!-- <li><a href="#">About</a></li>
-    <li><a href="#">Contact</a></li> -->
-    <li class="profile"><a href="profil.php">My Profile</a></li>
-  </ul>
-</nav>
-<h1>Welcome .......</h1>
-<script src="test.js">
-</script>
 </head>
 <body>
+    <header>
+    <div class="logo">
+    <img src="logoo.png" alt="Logo">
+  </div>
+        <nav>
+            <ul>
+                <li><a href="index.php">Home</a></li>
+                <li class="active"><a href="description.php">About</a></li>
+                <li><a href="contact.php">Contact</a></li>
+                <!-- <li class="profile"><a href="profil.php">My Profile</a></li> -->
+            </ul>
+        </nav>
+        <h1>Welcome .......</h1>
+    </header>
 
-<form action="valider.php" method="POST">
-<div class="d1">
-<fieldset style="width:300px;"  class="age">
-<label for="age" style="font-size:30px; color:#65426c;"> choose your age:</label>
-</br>
-<label class="container"> 18---30 years old
-  <input type="checkbox" name="18/30" value="18/30" >
-  <div class="checkmark"></div>
-</label>
-</br> 
-<label class="container"> 31---45 years old
-  <input type="checkbox"  name="31/45" value="31/45" >
-  <div class="checkmark"></div>
-</label>
-</br>
-<label class="container"> 46---60 years old
-  <input type="checkbox" name="46/60" value="46/60"  >
-  <div class="checkmark"></div>
-</label>
-</br>
-</fieldset>
+    <form action="valider.php" method="POST">
+        <div class="container">
+            <fieldset class="age">
+                <legend>Choose your age:</legend>
+                <label>
+                    <input type="radio" name="age" value="18-30" required>
+                    <span>18-30 years old</span>
+                </label>
+                <label>
+                    <input type="radio" name="age" value="31-45">
+                    <span>31-45 years old</span>
+                </label>
+                <label>
+                    <input type="radio" name="age" value="46-60">
+                    <span>46-60 years old</span>
+                </label>
+            </fieldset>
+            <hr>
+            
+            <fieldset class="height">
+                <legend>Choose your height:</legend>
+                <label>
+                    <input type="radio" name="height" value="140-155" required>
+                    <span>140-155 cm</span>
+                </label>
+                <label>
+                    <input type="radio" name="height" value="156-172">
+                    <span>156-172 cm</span>
+                </label>
+                <label>
+                    <input type="radio" name="height" value="173-185">
+                    <span>173-185 cm</span>
+                </label>
+            </fieldset>
+            <hr>
+            
+            <fieldset class="weight">
+                <legend>Choose your weight:</legend>
+                <label>
+                    <input type="radio" name="weight" value="35-45" required>
+                    <span>35-45 kg</span>
+                </label>
+                <label>
+                    <input type="radio" name="weight" value="46-55">
+                    <span>46-55 kg</span>
+                </label>
+                <label>
+                    <input type="radio" name="weight" value="56-65">
+                    <span>56-65 kg</span>
+                </label>
+                <label>
+                    <input type="radio" name="weight" value="66-75">
+                    <span>66-75 kg</span>
+                </label>
+                <label>
+                    <input type="radio" name="weight" value="76-85">
+                    <span>76-85 kg</span>
+                </label>
+                <label>
+                    <input type="radio" name="weight" value="86-95">
+                    <span>86-95 kg</span>
+                </label>
+                <label>
+                    <input type="radio" name="weight" value="96-120">
+                    <span>96-120 kg</span>
+                </label>
+            </fieldset>
+            <hr>
+            
+            <fieldset class="skin">
+                <legend>Choose your skin color:</legend>
+                <label>
+                    <input type="radio" name="skinColor" value="light_skin" required>
+                    <span>Fair or light skin</span>
+                </label>
+                <label>
+                    <input type="radio" name="skinColor" value="olive_skin">
+                    <span>Medium or olive skin</span>
+                </label>
+                <label>
+                    <input type="radio" name="skinColor" value="brown_skin">
+                    <span>Dark or brown skin</span>
+                </label>
+                <label>
+                    <input type="radio" name="skinColor" value="black_skin">
+                    <span>Black skin</span>
+                </label>
+            </fieldset>
+            <hr>
+            
+            <fieldset class="body">
+                <legend>Choose your body shape:</legend>
+                <label>
+                    <input type="radio" name="bodyShape" value="pear" required>
+                    <span>Triangle/Pear</span>
+                </label>
+                <label>
+                    <input type="radio" name="bodyShape" value="hourglass">
+                    <span>Hourglass</span>
+                </label>
+                <label>
+                    <input type="radio" name="bodyShape" value="inverted_triangle">
+                    <span>Inverted Triangle</span>
+                </label>
+                <label>
+                    <input type="radio" name="bodyShape" value="rectangle">
+                    <span>Rectangle/Straight</span>
+                </label>
+                <label>
+                    <input type="radio" name="bodyShape" value="apple">
+                    <span>Apple</span>
+                </label>
+                <a  class="lien" href="image.php">Learn more about body shapes.</a>
+            </fieldset>
+          
+            <hr>
 
-<hr>
+            <button type="submit" style="font-size:30px;">Register</button>
+        </div>
+    </form>
+    <footer>
+    <div class="footer-info">
+        <div>
+            <h4>About Us</h4>
+            <ul>
+              <p>Welcome to our website! We are
+                 your ultimate destination for beauty and shopping
+                 , curated exclusively for women.
 
-<fieldset style="width:300px;"  class="height">
-<label for="height" style="font-size:30px; color:#65426c;"> choose your height:</label>
-</br>
-<label class="container"> 140---155 cm
-  <input type="checkbox" name="140/155" value="140/155" >
-  <div class="checkmark"></div>
-</label>
-</br> 
-<label class="container"> 156---172 cm
-  <input type="checkbox" name="156/172" value="156/172" >
-  <div class="checkmark"></div>
-</label>
-</br>
-<label class="container"> 173---185 cm
-  <input type="checkbox" name="173/185" value="173/185">
-  <div class="checkmark"></div>
-</label>
-</br>
-</fieldset>
-</div>
-<hr>
+Indulge in a world of glamorous products and discover
+ the latest trends in beauty, skincare, and fashion. 
+ Our carefully selected collection offers a diverse range 
+of high-quality products that cater to your unique style and preferences.</p>
+            </ul>
+        </div>
+        <div>
+            <h4>Services</h4>
+            <ul>
+                <li><a href="shop.php">Shopping</a></li>
+                <li><a href="skin.php">Skin care</a></li>
+                <li><a href="h.php">Hair</a></li>
+                <li><a href="wellness.php">Wellness</a></li>
+                <li><a href="mo.php">MakeUp</a></li>
+                
+            </ul>
+        </div>
+        <!-- Add more divs for additional information -->
+    </div>
+    <hr class="footer-divider">
+    <a class="btn btn-icon btn-facebook" href="#"><i class="fa fa-facebook"></i><span>Facebook</span></a>
+<a class="btn btn-icon btn-twitter" href="#"><i class="fa fa-twitter"></i><span>Twitter</span></a>
+<a class="btn btn-icon btn-googleplus" href="#"><i class="fa fa-google-plus"></i><span>Google+</span></a>
+<a class="btn btn-icon btn-pinterest" href="#"><i class="fa fa-pinterest"></i><span>Pinterest</span></a>
+<a class="btn btn-icon btn-linkedin" href="#"><i class="fa fa-linkedin"></i><span>LinkedIn</span></a>
 
-<div class="d2">
-<fieldset style="width:300px;"  class="weight">
-<label for="weight" style="font-size:30px; color:#65426c;"> choose your weight:</label>
-</br>
-<label class="container"> 35---45 kg
-  <input type="checkbox" name="35/45" value="35/45" >
-  <div class="checkmark"></div>
-</label>
-</br> 
-<label class="container"> 46---55 kg
-  <input type="checkbox" name="46/55" value="46/55">
-  <div class="checkmark"></div>
-</label>
-</br>
-<label class="container"> 56---65 kg
-  <input type="checkbox" name="56/65" value="56/65" >
-  <div class="checkmark"></div>
-</label>
-</br>
-<label class="container"> 66---75 kg
-  <input type="checkbox" name="66/75" value="66/75">
-  <div class="checkmark"></div>
-</label>
-</br>
-<label class="container"> 76---85 kg
-  <input type="checkbox" name="76/85" value="76/85" >
-  <div class="checkmark"></div>
-</label>
-</br>
-<label class="container"> 86---95 kg
-  <input type="checkbox" name="86/95" value="85/95">
-  <div class="checkmark"></div>
-</label>
-</br>
-<label class="container"> 96---120 kg
-  <input type="checkbox" name="96/120" value="96/120">
-  <div class="checkmark"></div>
-</label>
-</br>
-</fieldset>
-
-<hr>
-
-<fieldset style="width:300px; height:300px;"  class="skin">
-<label for="skinColor" style="font-size:30px; color:#65426c;"> choose your skin color:</label>
-</br>
-<label class="container"> Fair or light skin
-  <input type="checkbox" name="light_skin" value="light_skin" >
-  <div class="checkmark"></div>
-</label>
-</br> 
-<label class="container"> Medium or olive skin
-  <input type="checkbox" name="olive_skin" value="olive_skin" >
-  <div class="checkmark"></div>
-</label>
-</br>
-<label class="container"> Dark or brown skin
-  <input type="checkbox" name="brown_skin" value="brown_skin">
-  <div class="checkmark"></div>
-</label>
-</br>
-<label class="container"> Black skin
-  <input type="checkbox" name="black_skin" value="black_skin">
-  <div class="checkmark"></div>
-</label>
-</br>
-</fieldset>
-</div>
-
-<hr>
-
-<div class="d3">
-<fieldset style="width:400px; height: 400px; "  class="body">
-<label for="body" style="font-size:30px; color:#65426c;"> choose your body shape:</label>
-</br>
-<label class="container"> Triangle/Pear
-  <input type="checkbox" name="pear" value="peare">
-  <div class="checkmark"></div>
-</label>
-</br> 
-<label class="container"> Hourglass
-  <input type="checkbox" name="hourglass" value="hourglass">
-  <div class="checkmark"></div>
-</label>
-</br>
-<label class="container"> Inverted Triangle
-  <input type="checkbox" name="inverted_triangle" value="inverted_triangle">
-  <div class="checkmark"></div>
-</label>
-</br>
-<label class="container"> Rectangle/Straight
-  <input type="checkbox" name="rectangle" value="rectangle">
-  <div class="checkmark"></div>
-</label>
-</br>
-<label class="container"> Apple
-  <input type="checkbox" name="apple" value="apple">
-  <div class="checkmark"></div>
-</label>
-</br>
-<a href="image.php" style="color:black;"> learn more about body shapes.</a>
-</fieldset>
-
-<hr>
-
-<fieldset style="width:400px; "  class="hair" >
-<label for="hair" style="font-size:30px; color:#65426c;"> choose your hair color:</label>
-</br>
-<label class="container"> Black
-  <input type="checkbox" name="black" value="black">
-  <div class="checkmark"></div>
-</label>
-</br> 
-<label class="container"> Brown (light, medium, and dark)
-  <input type="checkbox" name="brown" value="brown">
-  <div class="checkmark"></div>
-</label>
-</br>
-<label class="container"> Blonde (platinum, golden, ash, and strawberry)
-  <input type="checkbox" name="blonde" value="blonde">
-  <div class="checkmark"></div>
-</label>
-</br>
-<label class="container">Red (auburn, copper, and ginger)
-  <input type="checkbox" name="red" value="red">
-  <div class="checkmark"></div>
-</label>
-</br>
-<label class="container">Gray or silver
-  <input type="checkbox" name="gray" value="gray">
-  <div class="checkmark"></div>
-</label>
-</br>
-<label class="container">White
-  <input type="checkbox" name="white" value="white">
-  <div class="checkmark"></div>
-</label>
-</br>
-<label class="container">Blue, pink, purple, or other vivid colors (often achieved through hair dye)
-  <input type="checkbox" name="colorful" value="colorful">
-  <div class="checkmark"></div>
-</label>
-</br>
-</fieldset>
-
-</div>
-
-
-<hr>
-
-
-</br>
-<div class="btn1">
-<button data-label="Register" type="submit"  onsubmit="return validateForm()" class="rainbow-hover">
-  <span class="sp">Register</span>
-</button>
-</div>
-
-</form>
-
-</br>
-
-<footer>
-      <p>&copy; the ONTHA</p>
-    </footer>
+    <hr class="footer-divider">
+    <div class="footer-credits">
+        &copy; 2023 The ONTHA. All rights reserved.
+    </div>
+</footer>
 
 </body>
 </html>

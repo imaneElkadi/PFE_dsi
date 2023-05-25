@@ -16,7 +16,7 @@
       <nav>
         <img src="pics/logoo.png">
         
-        <h1>the ontha</h1>
+        <h1 >the ontha</h1>
         <ul>
           <li><a href="index.php">Home</a></li>
           <li><a href="description.php">About</a></li>
