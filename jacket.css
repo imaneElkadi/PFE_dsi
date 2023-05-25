@@ -1,168 +1,186 @@
 I*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'poppins', sans-serif;
-    font-size: 18px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'poppins', sans-serif;
+  font-size: 18px;
+  }
+  body{
+  background-color: #973287;
+  background: linear-gradient(109.7deg, #ffffff 30%, #f7b9d3 50%, #f8e6e6 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;}
+  .header{
+      height: 60px;
+      width: 1200px;
+      background-color:rgb(240, 161, 240);
+      border-radius: 3px;
+      margin: 30px 0px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 15px;
     }
-    body{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;}
-    .header{
-        height: 60px;
-        width: 800px;
-        background-color:rgb(240, 161, 240);
-        border-radius: 3px;
-        margin: 30px 0px;
+  .header .logo{
+      font-size: 30px;
+      font-weight: bold;
+      color: white;
+    }
+    .cart{
+      display: flex;
+      background-color: white;
+      justify-content: space-between;
+      align-items: center;
+      padding: 7px 10px;
+      border-radius: 3px;
+      width: 80px;
+    }
+  .fa-solid{
+      color: goldenrod;
+    }
+    .cart p{
+      display:flex ;
+      height: 22px;
+      width:22px;
+      align-items: center;
+      justify-content: center;
+      border-radius: 22px;
+     background-color: goldenrod;
+     color: rgb(255, 255, 255);
+    }
+    .container{
+      display: flex;
+      width: 1000px;
+      margin-bottom: 30px;
+  
+    }
+    #root{
+      width: 50%;
+      display:grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 20px;
+    }
+    .sidebar{
+      width:  30%;
+      border-radius: 5px;
+      background-color: rgb(246, 216, 241);
+      margin-right: 15px;
+      position: fixed;
+      margin-left: 790px;
+      padding: 15px;
+      text-align:center;
+    }
+    .foot{
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0px;
+  padding: 10px 0px;
+  border-top: 1px solid rgb(131, 61, 73);
+    }
+    
+    .head{
+      background-color: #E983D8;
+      border-radius: 3px;
+      height: 40px;
+      padding: 10px;
+      margin-bottom: 20px;
+      color: aliceblue;
+      display: flex;
+      align-items: center;
+      }
+      .box{
         display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding: 15px;
+      flex-direction: column;
+      width: 200px;
+      align-items: center;
+      justify-content: space-between;
+      border: 1px solid rgb(255, 255, 255);
+      border-radius: 5px;
+      padding: 15px;
       }
-    .header .logo{
-        font-size: 30px;
-        font-weight: bold;
-        color: white;
+      .img-box{
+        width: 100%;
+        height: 180px;
+           display: flex;
+          align-items: center;
+          justify-content: center;
       }
-      .cart{
+      .images{
+        max-width: 90%;
+        max-height: 90%;
+        object-fit: cover;
+        object-position: center;
+      }
+        
+        .bottom{
+        margin-top: 20px;
+        width: 100x;
+        text-align: center;
         display: flex;
-        background-color: white;
-        justify-content: space-between;
-        align-items: center;
-        padding: 7px 10px;
-        border-radius: 3px;
-        width: 80px;
-      }
-    .fa-solid{
-        color: goldenrod;
-      }
-      .cart p{
-        display:flex ;
-        height: 22px;
-        width:22px;
-        align-items: center;
-        justify-content: center;
-        border-radius: 22px;
-       background-color: goldenrod;
-       color: rgb(255, 255, 255);
-      }
-      .container{
-        display: flex;
-        width: 845px;
-        margin-bottom: 30px;
-      }
-      #root{
-        width: 60%;
-        display:grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-gap: 20px;
-      }
-      .sidebar{
-        width:  37%;
-        border-radius: 5px;
-        background-color: rgb(246, 216, 241);
-        margin-left: 15px;
-        margin-right: 15px;
-        padding: 15px;
-        text-align:center;
-      }
-      .foot{
-    display: flex;
-    justify-content: space-between;
-    margin: 20px 0px;
-    padding: 10px 0px;
-    border-top: 1px solid rgb(131, 61, 73);
-      }
-      
-      .head{
-        background-color: #E983D8;
-        border-radius: 3px;
-        height: 40px;
-        padding: 10px;
-        margin-bottom: 20px;
-        color: aliceblue;
-        display: flex;
-        align-items: center;
-        }
-        .box{
-          display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: space-between;
-        border: 1px solid goldenrod;
-        border-radius: 5px;
-        padding: 15px;
+        height: 110px;
         }
-        .img-box{
+        h2{
+          font-size: 20px;
+          color:red;
+          margin-top: 3%;
+        }
+        button{
           width: 100%;
-          height: 180px;
-             display: flex;
-            align-items: center;
-            justify-content: center;
+          position: relative;
+          border:none;
+          border-radius: 5px;
+          background-color: #E983D8;
+          padding: 7px 25px;
+          cursor: pointer;
+          color: rgb(255, 255, 255);
+          margin-top: -10%;
         }
-        .images{
-          max-width: 90%;
-          max-height: 90%;
-          object-fit: cover;
-          object-position: center;
+        button:hover{
+          background-color: #973287;
         }
-          
-          .bottom{
-          margin-top: 20px;
-          width: 100x;
-          text-align: center;
+        .cart-item{
           display: flex;
-          flex-direction: column;
           align-items: center;
           justify-content: space-between;
-          height: 110px;
-          }
-          h2{
-            font-size: 20px;
-            color:red;
-            margin-top: 3%;
-          }
-          button{
-            width: 100%;
-            position: relative;
-            border:none;
-            border-radius: 5px;
-            background-color: #E983D8;
-            padding: 7px 25px;
-            cursor: pointer;
-            color: rgb(255, 255, 255);
-            margin-top: -10%;
-          }
-          button:hover{
-            background-color: #973287;
-          }
-          .cart-item{
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            padding: 10px;
-            background-color: white;
-            border-bottom: 1px solid #aaa;
-            border-radius: 3px;
-            margin: 10px 10px;
-          }
-          .row-img{
-            width: 50px;
-            height: 50px;
-            border-radius: 50px;
-            border: 1px solid #E983D8;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-          }
-          .rowimg{
-            max-width: 43px;
-            max-height: 43px;
-            border-radius: 50%;
-          }
-          .fa-trash:hover{
-            cursor:pointer;
-            color: black;
-          }
+          padding: 10px;
+          background-color: white;
+          border-bottom: 1px solid #aaa;
+          border-radius: 3px;
+          margin: 10px 10px;
+        }
+        .row-img{
+          width: 50px;
+          height: 50px;
+          border-radius: 50px;
+          border: 1px solid #E983D8;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+        .rowimg{
+          max-width: 43px;
+          max-height: 43px;
+          border-radius: 50%;
+        }
+        .fa-trash:hover{
+          cursor:pointer;
+          color: black;
+        }
+        .pay{
+          font-size: 30px;
+          text-align: center;
+          align-items: center;
+          justify-content: center;
+          width: 120px;
+        }
+        a{
+          font-size: 20px;
+           text-decoration: none;
+           color: aliceblue;
+           text-align: center;
+        }
