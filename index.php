@@ -4,7 +4,7 @@
   <head data-aos="fade-top">
     <title>Women's Beauty Website</title>
     <link rel="stylesheet" href="index.css">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
     <link rel="stylesheet" href="front.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
@@ -148,12 +148,14 @@
 
 
     <main data-aos="fade-top">
+            <!-- aboutttt.................-->
       <section id="hero">
         <h1>Welcome to Women's Beauty Website</h1>
         <p>learn more about our Website perpse</p>
         <a href="description.php" class="btn">Learn More</a>
         <img src="pics/iman.jpeg">
       </section>
+      <!-- ............................................-->
       <section id="services" data-aos="fade-left">
         <h2>Our Services</h2>
         <ul>
@@ -238,31 +240,31 @@
 <div class="slider" x-data="{start: true, end: false}">
   <div class="slider__content" x-ref="slider" x-on:scroll.debounce="$refs.slider.scrollLeft == 0 ? start = true : start = false; Math.abs(($refs.slider.scrollWidth - $refs.slider.offsetWidth) - $refs.slider.scrollLeft) < 5 ? end = true : end = false;">
     <div class="slider__item">
-      <img class="slider__image" src="pics/hr1.jpg" alt="Image">
+      <img class="slider__image" src="pics/df1.png" alt="Image">
     </div>
     <div class="slider__item">
-      <img class="slider__image" src="pics/hr2.jpg" alt="Image">
+      <img class="slider__image" src="pics/df2.png" alt="Image">
       <div class="slider__info">
         
       </div>
     </div>
     <div class="slider__item">
-      <img class="slider__image" src="pics/hr3.jpg" alt="Image">
+      <img class="slider__image" src="pics/df3.png" alt="Image">
       <div class="slider__info">
       </div>
     </div>
     <div class="slider__item">
-      <img class="slider__image" src="pics/hr4.jpg" alt="Image">
+      <img class="slider__image" src="pics/df4.png" alt="Image">
       <div class="slider__info">
       </div>
     </div>
     <div class="slider__item">
-      <img class="slider__image" src="pics/hr5.jpg" alt="Image">
+      <img class="slider__image" src="pics/df5.png" alt="Image">
       <div class="slider__info">
       </div>
     </div>
     <div class="slider__item">
-      <img class="slider__image" src="pics/hr5.jpg" alt="Image">
+      <img class="slider__image" src="pics/df6.png" alt="Image">
       <div class="slider__info">
       </div>
     </div>
@@ -293,15 +295,60 @@
   <script src='https://cdnjs.cloudflare.com/ajax/libs/alpinejs/3.10.2/cdn.js'>
   </script>
     </main>
-    <footer data-aos="fade-top">
-        <div class="div1">&copy; the ONTHA <br>
-      <p>&copy; the ONTHA <br>
-      &copy; www.theOntha.com <br>
-      -email:swdsara5@gmail.com <br>
-      -adresse 
-      </div>
-       </p>
-    </footer>
+    <!-- fooooooooooooooterrr -->
+    <footer>
+        <div class="content">
+          <div class="top">
+            <div class="logo-details">
+              <i class="fa-solid fa-c"></i>
+              <span class="logo_name">the ontha</span>
+            </div>
+            <div class="media-icons">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+          </div>
+          <div class="link-boxes">
+            <ul class="box">
+              <li class="link_name">the ontha website</li>
+              <li><a href="index.php">Home</a></li>
+              <li><a href="contact.php">Contact us</a></li>
+              <li><a href="description.php">About us</a></li>
+              <li><a href="services.php">Get started</a></li>
+            </ul>
+            <ul class="box">
+              <li class="link_name">shopping</li>
+              <li><a href="dress.php">dresses</a></li>
+              <li><a href="pant.php">pants</a></li>
+              <li><a href="jacket.php">jackets</a></li>
+              <li><a href="top.php">tops</a></li>
+            </ul>
+            <ul class="box">
+              <li class="link_name">Account</li>
+              <li><a href="profil.php">Profile</a></li>
+              <li><a href="aboutMe.php">About me</a></li>
+            </ul>
+            <ul class="box">
+              <li class="link_name">advices</li>
+              <li><a href="wellness.php">wellness</a></li>
+              <li><a href="skin.php">skincare</a></li>
+            </ul>
+            <ul class="box input-box">
+              <li class="link_name">share your opinion</li>
+              <li><input type="text" ></li>
+              <li><input type="button" value="send"></li>
+            </ul>
+          </div>
+        </div>
+        <div class="bottom-details">
+          <div class="bottom_text">
+            <span class="copyright_text">Copyright © 2023 <a href="#">the ontha.</a>All rights reserved</span>
+          </div>
+        </div>
+      </footer>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
     AOS.init();
