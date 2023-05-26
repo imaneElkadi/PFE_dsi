@@ -22,13 +22,7 @@ if ($result->num_rows > 0) {
     // Insert the new user into the database
     $sql = "INSERT INTO user VALUES ('$username','$name','$email', '$password')";
     $cnx->query($sql);
-    // if ($cnx->query($sql) === TRUE) {
-      
-    //     echo "Sign up successful";
-    // } else {
-       
-    //     echo "Error: " . $sql . "<br>" . $cnx>error;
-    // }
+   
 }
 
 
@@ -43,7 +37,7 @@ if ($result->num_rows > 0) {
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The ONTHA</title>
-    <link rel="stylesheet" href="page2.css">
+    <link rel="stylesheet" href="pages2.css">
 </head>
 <body>
     <header>
@@ -58,7 +52,10 @@ if ($result->num_rows > 0) {
                 <!-- <li class="profile"><a href="profil.php">My Profile</a></li> -->
             </ul>
         </nav>
-        <h1>Welcome .......</h1>
+        <h1>Welcome <?php   
+        $nom=$_POST['name'];
+        echo"$nom";
+        ?></h1>
     </header>
 
     <form action="valider.php" method="POST">
@@ -115,18 +112,8 @@ if ($result->num_rows > 0) {
                     <input type="radio" name="weight" value="66-75">
                     <span>66-75 kg</span>
                 </label>
-                <label>
-                    <input type="radio" name="weight" value="76-85">
-                    <span>76-85 kg</span>
-                </label>
-                <label>
-                    <input type="radio" name="weight" value="86-95">
-                    <span>86-95 kg</span>
-                </label>
-                <label>
-                    <input type="radio" name="weight" value="96-120">
-                    <span>96-120 kg</span>
-                </label>
+              
+              
             </fieldset>
             <hr>
             
@@ -136,10 +123,7 @@ if ($result->num_rows > 0) {
                     <input type="radio" name="skinColor" value="light_skin" required>
                     <span>Fair or light skin</span>
                 </label>
-                <label>
-                    <input type="radio" name="skinColor" value="olive_skin">
-                    <span>Medium or olive skin</span>
-                </label>
+               
                 <label>
                     <input type="radio" name="skinColor" value="brown_skin">
                     <span>Dark or brown skin</span>
@@ -161,10 +145,7 @@ if ($result->num_rows > 0) {
                     <input type="radio" name="bodyShape" value="hourglass">
                     <span>Hourglass</span>
                 </label>
-                <label>
-                    <input type="radio" name="bodyShape" value="inverted_triangle">
-                    <span>Inverted Triangle</span>
-                </label>
+               
                 <label>
                     <input type="radio" name="bodyShape" value="rectangle">
                     <span>Rectangle/Straight</span>

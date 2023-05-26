@@ -24,14 +24,7 @@
       <div class="card-info">
         <h1 id="card-info-title">{{ currentCard.title }}</h1>
         <p id="card-info-desc">{{ currentCard.desc }}</p>
-        <a href="details.php">
-          <p>More details</p>
-          <svg viewBox="0 0 20 10">
-            <line x1="0" y1="5" x2="20" y2="5" />
-            <line x1="15" y1="0" x2="20" y2="5" />
-            <line x1="15" y1="10" x2="20" y2="5" />
-          </svg>
-        </a>
+      
       </div>
       <div class="card-photo">
         <div id="mask-1" class="mask"></div>
