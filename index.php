@@ -3,7 +3,7 @@
 <html>
   <head data-aos="fade-top">
     <title>Women's Beauty Website</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="indeex.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
     <!-- <link rel="stylesheet" href="front.css"> -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
@@ -323,10 +323,11 @@
             </ul>
             <ul class="box">
               <li class="link_name">shopping</li>
-              <li><a href="dress.php">dresses</a></li>
-              <li><a href="pant.php">pants</a></li>
-              <li><a href="jacket.php">jackets</a></li>
-              <li><a href="top.php">tops</a></li>
+              <li><a href="#">dresses</a></li>
+              <li><a href="#">pants</a></li>
+              <li><a href="#">jackets</a></li>
+              <li><a href="#">tops</a></li>
+              <li><a href="#">shoes</a></li>
             </ul>
             <!-- <ul class="box">
               <li class="link_name">Account</li>
@@ -339,9 +340,10 @@
               <li><a href="skin.php">skincare</a></li>
             </ul>
             <ul class="box input-box">
+              <form action="" method="POST" onsubmit="return send();"></form>
               <li class="link_name">share your opinion</li>
-              <li><input type="text" ></li>
-              <li><input type="button" value="send"></li>
+              <li><input name="mess" type="text" ></li>
+              <li><input  name="send" type="button" value="send" onclick="return send();"></li>
             </ul>
           </div>
         </div>
@@ -354,6 +356,10 @@
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
     AOS.init();
+    function send(){
+     alert('message sent !');
+   javascript:window.location='index.php';
+    }
   </script>
   </body>
 </html>

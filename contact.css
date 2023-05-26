@@ -1,7 +1,5 @@
 /* === removing default button style ===*/
-body{
-    background-color: rgb(1, 1, 1);
-  }
+
   
   .button {
     margin: 0;

@@ -13,6 +13,9 @@
       font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
+   
+    background-color: rgb(215, 215, 215);
+  
     }
 
   
@@ -93,15 +96,15 @@
       <ul>
         <li><a href="index.php">Home</a></li>
         <li><a href="description.php">About Us</a></li>
-        <li><a href="well.php">Services</a></li>
+        <li><a href="services.php">Services</a></li>
         
       </ul>
     </nav>
 
     <div class="content">
-      <form>
+      <form action="comment.php" method="POST">
         <div class="form-group">
-          <label for="name">Name</label>
+          <label for="name">User Name</label>
           <input type="text" id="name" name="name" required>
         </div>
 
@@ -121,7 +124,7 @@
         </div>
 
         <button  class ="btn1" type="submit">Send</button>
-      </form
+  </form>
     
   </div>
 </body>

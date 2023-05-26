@@ -231,21 +231,22 @@ a:hover {
     line-height: 1.5;
     color: #333;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);">Got a question or feedback? Contact us!</p></center>
-    <form class="get-in-touch__form" action="#" method="post">
+    <form class="get-in-touch__form" action="send.php" method="post">
       <div class="form-group">
-        <input class="form-control" type="text" placeholder="Name" required>
+        
+        <input class="form-control" name="nom" type="text" placeholder="Name" required>
       </div>
       <div class="form-group">
-        <input class="form-control" type="email" placeholder="Email" required>
+        <input class="form-control" type="email" name="email" placeholder="Email" required>
       </div>
 
       <div class="form-group">
-        <textarea class="form-control" placeholder="Message" required></textarea>
+        <textarea class="form-control" name="message" placeholder="Message" required></textarea>
       </div>
       <div>
 <center>
  
-<button class="btn2"> Send</button>
+<button class="btn2" type="submit"> Send</button>
 
       </center>
       </div>
