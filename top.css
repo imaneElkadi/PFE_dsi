@@ -6,8 +6,6 @@ I*{
   font-size: 18px;
   }
   body{
-  background-color: #973287;
-  background: linear-gradient(109.7deg, #ffffff 30%, #f7b9d3 50%, #f8e6e6 100%);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -67,7 +65,7 @@ I*{
       border-radius: 5px;
       background-color: rgb(246, 216, 241);
       margin-right: 15px;
-      position: fixed;
+      position: absolute;
       margin-left: 790px;
       padding: 15px;
       text-align:center;
