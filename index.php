@@ -329,11 +329,7 @@
               <li><a href="top.php">tops</a></li>
               <li><a href="shoes.php">shoes</a></li>
             </ul>
-            <!-- <ul class="box">
-              <li class="link_name">Account</li>
-              <li><a href="profil.php">Profile</a></li>
-              <li><a href="aboutMe.php">About me</a></li>
-            </ul> -->
+           
             <ul class="box">
               <li class="link_name">advices</li>
               <li><a href="wellness.php">wellness</a></li>
