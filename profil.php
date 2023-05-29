@@ -1,23 +1,22 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>The ONTHA</title>
-  <link rel="stylesheet" href="profile.css">
+  <link rel="stylesheet" href="profil.css">
+  <link rel="stylesheet" href="bootstrap.css">
 </head>
 <body>
   <!-- Header section -->
   <header>
   <nav>
   <ul>
-    <li><a href="index.php">Home</a></li>
-    <li><a href="paye.php">Shop</a></li>
-    <li><a href="blog.php">Blog</a></li>
-    <li><a href="description.php">About</a></li>
-    <li><a href="contact.php">Contact</a></li>
+    <li><a style=" text-decoration: none;" href="index.php">Home</a></li>
+    <li><a style=" text-decoration: none;" href="paye.php">Shop</a></li>
+    <li><a style=" text-decoration: none;" href="blog.php">Blog</a></li>
+    <li><a style=" text-decoration: none;" href="description.php">About</a></li>
+    <li><a style=" text-decoration: none;" href="contact.php">Contact</a></li>
   </ul>
   <div class="footer__logo">
       <img src="logoo.png" alt="Logo">
@@ -135,7 +134,7 @@ a:hover {
 
 <button class="btn3" type="submit">
     <div class="wrapper">
-        <p class="text">About me </p>
+        <p  style="font-size:23px;"class="text">About me </p>
 
         <div class="flower flower1">
             <div class="petal one"></div>
@@ -202,13 +201,13 @@ a:hover {
       <div class="cadre" >
   <h2>Ovulation and Period Calculator</h2>
   <p> Amazing things  what woman's body is capable of.</p>
-  <a href="regle.php">Click here to learn more</a>
+  <a style=" text-decoration: none;" href="regle.php">Click here to learn more</a>
 </div>
 
 <div class="shopping-guide" >
   <h2>Shop for your Fashion</h2>
   <!-- <p style="color:black;">Find the latest fashion trends and styles for women at our online store.</p> -->
-  <a href="shop.php" class="cta-button">Shop Now</a>
+  <a style=" text-decoration: none;" href="shop.php" class="cta-button">Shop Now</a>
 </div>
   <!-- </div> -->
 
@@ -255,7 +254,7 @@ a:hover {
 </section>
 
   <!-- Footer section -->
-  <footer>
+  <!-- <footer>
     <div class="footer__logo">
       <img src="logoo.png" alt="Logo">
     </div>
@@ -263,6 +262,130 @@ a:hover {
     <div class="footer__info">
       <p style="color:black;"> © 2023 The ONTHA</p>
     </div>
-  </footer>
+  </footer> -->
+  <!-- Footer -->
+<footer style="background: linear-gradient(68.4deg, rgb(248, 182, 204) 0.5%, rgb(192, 198, 230) 49%, rgb(225, 246, 240) 99.8%);"class="text-center text-lg-start bg-white text-muted">
+  <!-- Section: Social media -->
+  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+    <!-- Left -->
+    <div class="me-5 d-none d-lg-block">
+      <span>Get connected with us on social networks:</span>
+    </div>
+    <!-- Left -->
+
+    <!-- Right -->
+    <div>
+      <a style=" text-decoration: none;" href="" class="me-4 link-secondary">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a style=" text-decoration: none;" href="" class="me-4 link-secondary">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a style=" text-decoration: none;" href="" class="me-4 link-secondary">
+        <i class="fab fa-google"></i>
+      </a>
+      <a style=" text-decoration: none;" href="" class="me-4 link-secondary">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a style=" text-decoration: none;" href="" class="me-4 link-secondary">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a style=" text-decoration: none;" href="" class="me-4 link-secondary">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <!-- Right -->
+  </section>
+  <!-- Section: Social media -->
+
+  <!-- Section: Links  -->
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            <i class="fas fa-gem me-3 text-secondary"></i>Company name
+          </h6>
+          <p>
+          Ontha is a vibrant and stylish online destination exclusively designed for women seeking beauty and shopping experiences.
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Products
+          </h6>
+          <p>
+            <a style=" text-decoration: none;" href="pant.php" class="text-reset">Pants</a>
+          </p>
+          <p>
+            <a style=" text-decoration: none;" href="dress.php" class="text-reset">Dresses</a>
+          </p>
+          <p>
+            <a style=" text-decoration: none;" href="shoes.php" class="text-reset">Shoes</a>
+          </p>
+          <p>
+            <a style=" text-decoration: none;" href="top.php" class="text-reset">Tops</a>
+          </p>
+          <p>
+            <a style=" text-decoration: none;" href="jacket.php" class="text-reset">Jackets</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Useful links
+          </h6>
+          <p>
+            <a style=" text-decoration: none;" href="services.php" class="text-reset">Services</a>
+          </p>
+          <p>
+            <a style=" text-decoration: none;" href="description.php" class="text-reset">About us</a>
+          </p>
+          <p>
+            <a style=" text-decoration: none;" href="blog.php" class="text-reset">Blog</a>
+          </p>
+          <p>
+            <a style=" text-decoration: none;" href="contact.php" class="text-reset">Contact us</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+          <p><i class="fas fa-home me-3 text-secondary"></i> Marrakech, Geliz hassan2</p>
+          <p>
+            <i class="fas fa-envelope me-3 text-secondary"></i>
+           imaneelkadi22@gmail.com
+          </p>
+          <p><i class="fas fa-phone me-3 text-secondary"></i> +212 7 08 86 79 60</p>
+          <p><i class="fas fa-print me-3 text-secondary"></i> +212 6 94 55 24 09</p>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+
+  <!-- Copyright -->
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.025);">
+    © 2023 Copyright:
+    <a style=" text-decoration: none;" class="text-reset fw-bold" href="TheOntha.com">TheOntha.com</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
 </body>
 </html>

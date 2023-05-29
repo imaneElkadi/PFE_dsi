@@ -12,25 +12,6 @@
 </head>
 <body>
 
-  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
-<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900|RobotoDraft:400,100,300,500,700,900|Material+Icons'><link rel="stylesheet" href="./style.css">
-
-</head>
-<body> -->
-<!-- partial:index.partial.html -->
-<!-- <div class="container"> -->
-  <!-- Btn-->
-  <!-- <button class="btn4"><span>Account Settings</span><i class="material-icons">public</i>
-    <ul class="dropdown"> -->
-      <!-- <li class="active"><a href="#">Profile Information</a></li> -->
-      <!-- <li><a href="#">Change Password</a></li> -->
-      <!-- <li><a href="#">Become <b>PRO</b></a></li> -->
-      <!-- <li><a href="#">Help</a></li> -->
-      <!-- <li><a href="index.php">Log Out</a></li>
-    </ul>
-  </button>
-</div> -->
-<!-- partial -->
 
 
 
@@ -73,7 +54,7 @@
                 <hr align="center">
             </div>
             <div class="url">
-                <a href="blog.php">Liste of Recommendation</a>
+                <a href="valider.php">Liste of Recommendation</a>
                 <hr align="center">
             </div>
         </div>
@@ -91,21 +72,45 @@
 
             $nom=$_SESSION['nom'];
             $email=$_SESSION['email'];
-            $age=0;
-            
-            ?>
-                <table>
-                    <tbody>
-                        <tr>
-                            <td>Name</td>
-                            <td>:</td>
-                            <td><?php echo "$nom";?></td>
-                        </tr>
-                        <tr>
-                            <td>Email</td>
-                            <td>:</td>
-                            <td><?php echo "$email";?></td>
-                        </tr>
+        
+    
+      
+       if(isset($_SESSION['btn1'])){ 
+        $n=$_SESSION['nm'];
+        $em=$_SESSION['em'];
+       echo"
+            <table>
+                <tbody>
+                    <tr>
+                        <td>Name</td>
+                        <td>:</td>
+                        
+                        <td>$n</td>
+                    </tr>
+                    <tr>
+                        <td>Email</td>
+                        <td>:</td>
+                        <td>$em</td>
+                    </tr> ";}
+                    else{
+                        echo"
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>:</td>
+                                    
+                                    <td>$nom></td>
+                                </tr>
+                                <tr>
+                                    <td>Email</td>
+                                    <td>:</td>
+                                    <td>$email</td>
+                                </tr> ";  
+                    }
+        
+                    ?>
+    
                         <!-- <tr>
                             <td>Address</td>
                             <td>:</td>
@@ -118,11 +123,11 @@
       <button id="saveButton">Save</button>
      <p id="savedParagraph"></p></td>
                         </tr>
-                        <tr>
+                        <!-- <tr>
                             <td>Age</td>
                             <td>:</td>
                             <td><?php echo "$age";?></td>
-                        </tr>
+                        </tr> -->
                         <!-- <tr>
                             <td>Skill</td>
                             <td>:</td>

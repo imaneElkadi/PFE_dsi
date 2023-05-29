@@ -129,7 +129,7 @@
                 <input name="email" placeholder="email" type="email" required />
                   <input name="Password" placeholder="Password" type="Password" />
             <div class="bttn">
-             <button type="submit"> Sign up</button>
+             <button name="btn1" type="submit"> Sign up</button>
             </div>
             </form>
           </div>

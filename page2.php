@@ -2,6 +2,7 @@
 
 <!-- signup_process.php -->
 <?php
+session_start();
 require "connect.php";
 
 // Retrieve username and password from the form
@@ -9,6 +10,9 @@ $username = $_POST['idutil'];
 $password = $_POST['Password'];
 $name = $_POST['name'];
 $email = $_POST['email'];
+$_SESSION['nm']=$_POST['name'];
+$_SESSION['em']= $_POST['email'];
+$_SESSION['btn1']= $_POST['btn1'];
 // Check if the username already exists
 $sql = "SELECT * FROM user WHERE id = '$username'";
 $result = $cnx->query($sql);

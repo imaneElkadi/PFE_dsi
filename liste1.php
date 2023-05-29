@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tha ontha</title>
   <link rel="stylesheet" href="liste1.css">
-  
+  <!-- <link rel="stylesheet" href="bootstrap.css"> -->
 </head>
 <body>
 <nav>
@@ -25,7 +25,7 @@
   <div class="content">
     <!-- <a href="https://unsplash.com/photos/HkTMcmlMOUQ" target="_blank"> -->
       <div class="content-overlay"></div>
-      <img class="content-image" src="fondation/f1.jpg" alt="">
+      <img class="content-image" src="fondation/f1a.jpg" alt="">
       <div class="content-details fadeIn-bottom">
         <h3 class="content-title">Foundation</h3>
         <p class="content-text">medium-coverage foundations, evaluating their formulas, how seamlessly they apply and look on the skin, how well they wear, and their shade ranges.</p>
@@ -39,7 +39,7 @@
   <div class="content">
     <!-- <a href="https://unsplash.com/photos/HkTMcmlMOUQ" target="_blank"> -->
       <div class="content-overlay"></div>
-      <img class="content-image" src="fondation/f2.jpg" alt="">
+      <img class="content-image" src="fondation/f2a.jpg" alt="">
       <div class="content-details fadeIn-top">
         <h3>Foundation</h3>
         <p>The Loreal Paris Skin Paradise Foundation is nice for when you need medium coverage and the Covergirl Clean Fresh Foundation is perfect for natural light coverage days </p>
@@ -81,7 +81,7 @@
   <div class="content">
     <!-- <a href="https://unsplash.com/photos/HkTMcmlMOUQ" target="_blank"> -->
       <div class="content-overlay"></div>
-      <img class="content-image" src="fondation/f5.jpg" alt="">
+      <img class="content-image" src="fondation/f5a.jpg" alt="">
       <div class="content-details fadeIn-top fadeIn-left">
         <h3>Eyeshadow</h3>
         <p>Too Faced Natural Love Ultimate Neutral Eyeshadow Palette A blockbuster combination of stunning shades from Too Faced bestsellers Natural Eyes, Natural Matte, Natural At Night, and of course, never-before-seen neutrals</p>
@@ -278,6 +278,7 @@
 </div>
 
 
+<!-- footer -->
 
 
 
