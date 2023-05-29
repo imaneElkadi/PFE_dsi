@@ -10,7 +10,6 @@
              <div class="cart"><i class="fa-solid fa-cart-shopping"></i><p id="count">0</p></div>
         </div>
         <div class="container">
-        <!--<p><i class="fas fa-shopping-cart"></i></p></a>-->
           <div id="root"></div>  
           <div class="sidebar">
             <div class="head"><p>My cart</p></div>

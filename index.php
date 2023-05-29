@@ -323,17 +323,13 @@
             </ul>
             <ul class="box">
               <li class="link_name">shopping</li>
-              <li><a href="#">dresses</a></li>
-              <li><a href="#">pants</a></li>
-              <li><a href="#">jackets</a></li>
-              <li><a href="#">tops</a></li>
-              <li><a href="#">shoes</a></li>
+              <li><a href="dress.php">dresses</a></li>
+              <li><a href="pant.php">pants</a></li>
+              <li><a href="jacket.php">jackets</a></li>
+              <li><a href="top.php">tops</a></li>
+              <li><a href="shoes.php">shoes</a></li>
             </ul>
-            <!-- <ul class="box">
-              <li class="link_name">Account</li>
-              <li><a href="profil.php">Profile</a></li>
-              <li><a href="aboutMe.php">About me</a></li>
-            </ul> -->
+           
             <ul class="box">
               <li class="link_name">advices</li>
               <li><a href="wellness.php">wellness</a></li>
