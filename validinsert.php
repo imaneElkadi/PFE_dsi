@@ -1,5 +1,6 @@
 <!-- login_process.php -->
 <?php
+session_start();
 require "connect.php";
 
 // Retrieve username and password from the form
@@ -19,6 +20,18 @@ if ($result->num_rows > 0) {
     echo "<script>javascript:window.location='obl.php';</script>";
     exit();
 }
+
+$sql2 = "SELECT * FROM user WHERE id = '$username' AND password = '$password'";
+$res = $cnx->query($sql2);
+
+while($resul=$res->fetch_assoc()){
+   $a =$resul['nomPrenom'];
+   $b=$resul['email'];
+}
+
+$_SESSION['nom']=$a;
+$_SESSION['email']=$b
+
 
 
 ?>

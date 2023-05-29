@@ -9,14 +9,16 @@ body {
   
   header {
     background: linear-gradient(to top, #ebc0fd 0%, #d9ded8 100%);
-    padding: 20px;
+    padding: 5px;
     text-align: center;
+    height: 50px;
   }
   .logo{
     display:flex;
     z-index: 1;
   margin-inline-start: 0%;
-    max-width: 70px;
+    max-width: 60px;
+    top: 50%;
   }
   
   h1 {

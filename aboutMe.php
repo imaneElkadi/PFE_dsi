@@ -1,3 +1,7 @@
+
+
+
+
 <!DOCTYPE html>
 <html lang="en" >
 <head>
@@ -82,18 +86,25 @@
         <div class="card">
             <div class="card-body">
                
+            <?php
+            session_start();
+
+            $nom=$_SESSION['nom'];
+            $email=$_SESSION['email'];
+            $age=0;
             
+            ?>
                 <table>
                     <tbody>
                         <tr>
                             <td>Name</td>
                             <td>:</td>
-                            <td>ImDezCode</td>
+                            <td><?php echo "$nom";?></td>
                         </tr>
                         <tr>
                             <td>Email</td>
                             <td>:</td>
-                            <td>imdezcode@gmail.com</td>
+                            <td><?php echo "$email";?></td>
                         </tr>
                         <!-- <tr>
                             <td>Address</td>
@@ -110,7 +121,7 @@
                         <tr>
                             <td>Age</td>
                             <td>:</td>
-                            <td>21 years old</td>
+                            <td><?php echo "$age";?></td>
                         </tr>
                         <!-- <tr>
                             <td>Skill</td>
