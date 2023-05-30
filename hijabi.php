@@ -11,14 +11,14 @@ $body=$_SESSION['bodyShape'];
 
 
 if($age=="18-30" && $height=="140-155" && $weight=="35-45" && $skinColor=="light_skin" && $body=="pear"){
-    header("location:liste1.php");
+    header("location:liste2.php");
 
 }
 
 
 elseif($age=="18-30" && $height=="156-172" && $weight=="56-65" && $skinColor=="brown_skin" && $body=="Hourglass"){
 
-    header("location:liste1.php");
+    header("location:liste2.php");
 //     echo"Makeup Recommendations:
 
 // Foundation: Select a foundation that matches your skin tone and provides a seamless finish. Consider foundations with warm undertones that complement brown skin.
@@ -37,7 +37,7 @@ elseif($age=="18-30" && $height=="156-172" && $weight=="56-65" && $skinColor=="b
 
 elseif($age=="31-45" && $height=="173-185" && $weight=="46-55" && $skinColor=="brown_skin" && $body=="apple"){
 
-    header("location:liste1.php");
+    header("location:liste2.php");
     // echo"Makeup Recommendations:
 
 // Foundation: Choose a foundation that matches your skin tone and provides medium to full coverage. Look for products that offer a radiant or dewy finish to add a healthy glow to your skin.
@@ -56,7 +56,7 @@ elseif($age=="31-45" && $height=="173-185" && $weight=="46-55" && $skinColor=="b
 
 
 elseif($age=="31-45" && $height=="140-155" && $weight=="66-75" && $skinColor=="light_skin" && $body=="apple"){
-    header("location:liste1.php");
+    header("location:liste2.php");
     // echo"Makeup Recommendations:
 
 // Foundation: Choose a foundation that matches your skin tone and provides medium to full coverage. Look for products that offer a natural or satin finish to even out your complexion.
@@ -74,7 +74,7 @@ elseif($age=="31-45" && $height=="140-155" && $weight=="66-75" && $skinColor=="l
 
 
 elseif($age=="46-60" && $height=="156-172" && $weight=="35-45" && $skinColor=="black_skin" && $body=="rectangle"){
-    header("location:liste1.php");
+    header("location:liste2.php");
     // echo"Makeup Recommendations:
 
 // Foundation: Choose a foundation that matches your skin tone and provides a natural, radiant finish. Look for products specifically formulated for black skin tones.
@@ -92,7 +92,7 @@ elseif($age=="46-60" && $height=="156-172" && $weight=="35-45" && $skinColor=="b
 
 
 elseif($age=="46-60" && $height=="173-185" && $weight=="56-65" && $skinColor=="light_skin" && $body=="Hourglass"){
-    header("location:liste1.php");
+    header("location:liste2.php");
     // echo"Foundation: Choose a foundation that matches your skin tone and provides medium to full coverage. Look for products that offer a natural, radiant finish.
     // Contouring: Utilize contouring techniques to accentuate your natural features. Focus on defining your cheekbones, jawline, and temples.
     // Eye Makeup: Experiment with a variety of eyeshadow colors, such as warm neutrals, earthy tones, or soft metallics. Consider using eyeliner and mascara to enhance your eyes and create a polished look.
@@ -108,7 +108,7 @@ elseif($age=="46-60" && $height=="173-185" && $weight=="56-65" && $skinColor=="l
 
 
 elseif($age=="18-30" && $height=="173-185" && $weight=="46-55" && $skinColor=="brown_skin" && $body=="pear"){
-    header("location:liste1.php");
+    header("location:liste2.php");
     // echo"Makeup Recommendations:
 
 // Foundation: Choose a foundation that matches your skin tone and provides a natural, seamless finish. Look for products that offer medium coverage.
@@ -128,7 +128,7 @@ elseif($age=="18-30" && $height=="173-185" && $weight=="46-55" && $skinColor=="b
 
 
 elseif($age=="18-30" && $height=="140-155" && $weight=="66-75" && $skinColor=="black_skin" && $body=="rectangle"){
-    header("location:liste1.php");
+    header("location:liste2.php");
     // echo"Makeup Recommendations:
 
 // Foundation: Choose a foundation that matches your skin tone and provides a natural, even finish. Look for products specifically formulated for black skin tones.
@@ -147,7 +147,7 @@ elseif($age=="18-30" && $height=="140-155" && $weight=="66-75" && $skinColor=="b
 
 
 elseif($age=="31-45" && $height=="156-172" && $weight=="56-65" && $skinColor=="brown_skin" && $body=="rectangle"){
-    header("location:liste1.php");
+    header("location:liste2.php");
     // echo"Makeup Recommendations:
 
 // Foundation: Choose a foundation that matches your skin tone and provides a natural, even finish. Look for products that offer medium coverage.
@@ -166,7 +166,7 @@ elseif($age=="31-45" && $height=="156-172" && $weight=="56-65" && $skinColor=="b
 
 
 elseif($age=="31-45" && $height=="173-185 " && $weight=="35-45" && $skinColor=="black_brown_skin" && $body=="pear"){
-    header("location:liste1.php");
+    header("location:liste2.php");
     // echo"Makeup Recommendations:
 
     // Foundation: Choose a foundation that matches your skin tone and provides a natural, seamless finish. Look for products that offer medium coverage and are suitable for black or brown skin tones.
@@ -184,7 +184,7 @@ elseif($age=="31-45" && $height=="173-185 " && $weight=="35-45" && $skinColor=="
 
 
 else{
-    header("location:liste1.php");
+    header("location:liste2.php");
     // echo"Makeup Recommendations:
 
     // Foundation: Choose a foundation that matches your skin tone and provides a natural, seamless finish.
