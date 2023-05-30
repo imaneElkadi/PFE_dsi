@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tha ontha</title>
-  <link rel="stylesheet" href="liste1.css">
+  <link rel="stylesheet" href="liste.css">
   <!-- <link rel="stylesheet" href="bootstrap.css"> -->
 </head>
 <body>
@@ -280,10 +280,12 @@
 
 <!-- footer -->
 
+<hr>
 
+<h1 class="main-title">Add some Accessories and stuf</h1>
 
-
-
-
+<a href="accessoir.php" class="footer-link">Visit Here.</a>
+<br> <br>
+<hr>
 </body>
 </html>

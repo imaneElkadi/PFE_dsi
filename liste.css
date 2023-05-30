@@ -172,3 +172,24 @@ nav {
 
 
 /* footer */
+.footer-link {
+  /* position: fixed; */
+font-size: 20px;
+   bottom: 20px;
+  left: 50%; 
+  transform: translateX(-50%);
+  background-color: #333;
+  padding: 10px 20px;
+  border-radius: 20px;
+  color: #fff;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  margin-left: 50%;
+
+}
+
+.footer-link:hover {
+  background-color: #555;
+}
