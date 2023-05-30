@@ -10,26 +10,19 @@
 <body>
 <h1> oval face haircuts</h1>
     <div class="h">
-    <img src="PICSMAKEUP/h7.jpg">
-    <img src="PICSMAKEUP/h2.jpg">
-    <img src="PICSMAKEUP/h4.jpg">
-    <img src="PICSMAKEUP/h9.jpg">
-    <img src="PICSMAKEUP/h6.jpg">
-    <img src="PICSMAKEUP/h3.jpg">
-    <img src="PICSMAKEUP/h1.jpg">
-    <img src="PICSMAKEUP/h8.jpg">
-    <img src="PICSMAKEUP/h5.jpg">
-    <img src="PICSMAKEUP/h15.jpg">
-    <img src="PICSMAKEUP/h11.jpg">
-    <img src="PICSMAKEUP/h12.jpg">
-    <img src="PICSMAKEUP/h20.jpg">
-    <img src="PICSMAKEUP/h21.jpg">
-    <img src="PICSMAKEUP/h13.jpg">
-    <img src="PICSMAKEUP/h10.jpg">
-    <img src="PICSMAKEUP/h16.jpg">
-    <img src="PICSMAKEUP/h17.jpg">
-    <img src="PICSMAKEUP/h18.jpg">
-    <img src="PICSMAKEUP/h19.jpg">
+    <img src="PFE_dsi/o1.jpeg">
+    <img src="PFE_dsi/o2.jpeg">
+    <img src="PFE_dsi/o3.jpeg">
+    <img src="PFE_dsi/o4.jpeg">
+    <img src="PFE_dsi/o5.jpeg">
+    <img src="PFE_dsi/o6.jpeg">
+    <img src="PFE_dsi/o7.jpeg">
+    <img src="PFE_dsi/o8.jpeg">
+    <img src="PFE_dsi/o9.jpeg">
+    <img src="PFE_dsi/o10.jpeg">
+    <img src="PFE_dsi/o11.jpeg">
+    <img src="PFE_dsi/o12.jpeg">
+
 
     </div>
 </body>
