@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="hairtypes.css">
 </head>
 <body>
+<?php include('header.php') ?>
+
 <h1> heart face haircuts</h1>
     <div class="h">
     <div class="b">

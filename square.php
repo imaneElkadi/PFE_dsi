@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="hairtypes.css">
 </head>
 <body>
+    <?php include('header.php') ?>
 <h1> square face haircuts</h1>
 <div class="b">
 <div class="big">

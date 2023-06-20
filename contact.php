@@ -31,7 +31,8 @@
 
     .nav-bar {
       flex-basis: 20%;
-      background-color: #f9c5d1; /* Baby pink color */
+      background-color: #cfb7a1; /* Baby pink color */ 
+
       color: #fff;
       padding: 20px;
     }

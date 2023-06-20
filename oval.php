@@ -8,9 +8,9 @@
     <link rel="stylesheet" href="hairtypes.css">
 </head>
 <body>
-<h1> oval face haircuts</h1>
-    <
+<?php include('header.php') ?>
 
+<h1> oval face haircuts</h1>
 <div class="b">
 <div class="big">
     <div class="h">
