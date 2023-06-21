@@ -2,7 +2,7 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title> Table Flipping | Nothing4us</title>
+  <title> wellness</title>
   <link rel="stylesheet" href="./wellness.css">
 
 </head>

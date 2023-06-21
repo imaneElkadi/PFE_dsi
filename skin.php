@@ -2,7 +2,7 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title> Image slider with multi control | Nothing4us </title>
+  <title> skincare </title>
   <link rel="stylesheet" href="./ckincare.css">
 
 </head>
