@@ -32,3 +32,11 @@
 h1{
     text-align: center;
 }
+.h img{
+    height: 300px;
+    width:25git add *0px ;   
+   margin-left: 12%;
+   border-radius: 5%;
+   margin-top: 10%;
+   border: 2px solid rgb(0, 0, 0);
+}
